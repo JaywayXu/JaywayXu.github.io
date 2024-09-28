@@ -25,7 +25,7 @@ author:
   avatar           : "images/xzw.png"
   bio              : "Lecturer, Wuhan University of Science and Technology"
   location         : "Wuhan, China"
-  employer         : "Wuhan University of Science and Technology"
+  employer         : # "Wuhan University of Science and Technology"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=_Lkioz8AAAAJ&hl"
   email            : "xuzhiwei@wust.edu.cn"
