@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "ZhiweiXu"
-description              : "PhD, Lecturer, School of Computer Science and Technology, Wuhan University of Science and Technology, China"
+description              : "PhD, Lecturer"
 repository               : "Asurada2015/Asurada2015.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -25,7 +25,7 @@ author:
   avatar           : "images/xzw.png"
   bio              : "Lecturer, Wuhan University of Science and Technology"
   location         : "Wuhan, China"
-  employer         : "School of Computer Science and Technology, Wuhan University of Science and Technology"
+  employer         : "Wuhan University of Science and Technology"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=_Lkioz8AAAAJ&hl"
   email            : "xuzhiwei@wust.edu.cn"
