@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "许志伟"
-description              : "计算智能、进化算法、多目标优化"
+title                    : "ZhiweiXu"
+description              : "PhD, Lecturer, School of Computer Science and Technology, Wuhan University of Science and Technology, China"
 repository               : "Asurada2015/Asurada2015.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -21,11 +21,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "ZhiweiXu许志伟"
+  name             : "ZhiweiXu"
   avatar           : "images/xzw.png"
-  bio              : "武汉科技大学"
-  location         : "湖北 武汉"
-  employer         : #"School of Computer Science and Technology, Wuhan University of Science and Technology"
+  bio              : "Lecturer, Wuhan University of Science and Technology"
+  location         : "Wuhan, China"
+  employer         : "School of Computer Science and Technology, Wuhan University of Science and Technology"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=_Lkioz8AAAAJ&hl"
   email            : "xuzhiwei@wust.edu.cn"
