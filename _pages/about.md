@@ -102,8 +102,7 @@ My research interests include:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASOC 2024</div><img src='images/HMOMFMA.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- `Zhiwei Xu\* (许志伟)`, Jia feng Xu, Kai Zhang, Xin Xu, Juanjuan He, Ni Wu, Decision Variable Classification based Multi-objective Multifactorial Memetic Algorithm for Multi-objective Multi-task Optimization Problem. *Applied Soft Computing* , vol. 152, p. 111232, Feb. 2024. (JCR:Q1; IF：8.7)  
-[[Link]](https://www.sciencedirect.com/science/article/pii/S1568494624000061) [[Download]](/PDF/HMOMFMA.pdf)
+- `Zhiwei Xu (许志伟)`\*, Jia feng Xu, Kai Zhang, Xin Xu, Juanjuan He, Ni Wu, Decision Variable Classification based Multi-objective Multifactorial Memetic Algorithm for Multi-objective Multi-task Optimization Problem. *Applied Soft Computing* , vol. 152, p. 111232, Feb. 2024. (JCR:Q1; IF：8.7)
 
 - In this paper, a novel hybrid multi-objective multifactorial memetic algorithm is proposed to solve MOMTO problems. The proposed variable classification method will classify decision variables into convergence-related and diversity-related decision variables. Only the same type of decision variables in the source and target tasks can transfer information to avoid negative transfer. 
 - Different evolutionary operators are adopted according to the characteristics of decision variables during individual recombination. 
