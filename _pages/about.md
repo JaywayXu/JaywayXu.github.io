@@ -27,7 +27,7 @@ I have participated in two projects funded by the National Natural Science Found
 
 I was recognized as an Excellent Graduate Student at the Annual Meeting and Academic Seminar of the Wuhan Computer Software Engineering Society in both 2021 and 2022, and won the First Prize at the 2021 CCF Wuhan Excellent Doctoral Student Academic Showcase Forum. I serve as a reviewer for leading international journals including **IEEE Transactions on Evolutionary Computation**, **IEEE Transactions on Systems, Man, and Cybernetics: Systems**, **Information Sciences**, and **Applied Soft Computing**. Additionally, I am a reviewer for international conferences such as the **IEEE Congress on Evolutionary Computation (CEC)**, **IEEE Symposium Series on Computational Intelligence (SSCI)**, and the **International Conference on Bio-inspired Computing: Theories and Applications (BIC-TA)**.
 
- <a href='https://scholar.google.com/citations?user=_Lkioz8AAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>。
+ <a href='https://scholar.google.com/citations?user=_Lkioz8AAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>
 
 My research interests include:
 
