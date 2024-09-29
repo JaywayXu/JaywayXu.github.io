@@ -48,7 +48,7 @@ My research interests include:
 - Kai Zhang, `Zhiwei Xu(许志伟)`, Shengli Xie, and Gary G. Yen\*. Evolution Strategy-Based Many-Objective Evolutionary Algorithm Through Vector Equilibrium. *IEEE Transactions on Cybernetics* , vol. 51, no. 11, pp. 5455–5467, Nov. 2021. (JCR:Q1; IF:11.8)
 - In this paper, we propose a novel evolution strategy for solving many-objective optimization problems, named MaOES.
 - The proposed algorithm uses mutation and selection for individual self-adaptation. The Precision Controllable Mutation operator is designed for individuals to explore and exploit the decision space efficiently. The Maximum Extension Distance strategy is tailored to guide the individuals to keep uniform distance among particles in the population and to facilitate the extension to approximate the entire Pareto front automatically.  
-[[Link]](https://ieeexplore.ieee.org/document/8955947/) [[Download]](/pdf/MaOES.pdf)[[Code]](https://github.com/MaOEA/MaOES)
+[[Link]](https://ieeexplore.ieee.org/document/8955947/) [[Download]](/PDF/MaOES.pdf)[[Code]](https://github.com/MaOEA/MaOES)
 
 </div>
 </div>
@@ -61,10 +61,25 @@ My research interests include:
 - Secondly, to avoid been trapped into local optima, the proposed algorithm adopts a two-stage strategy to solve CMOPs.
 - In the first stage, the proposed algorithm focuses solely on converging toward the unconstrained PF without considering the constrained satisfaction.
 - In the second stage, the FNDS constraint handling technique is adopted to guide the population converging towards PF effectively.  
-[[Link]](https://ieeexplore.ieee.org/document/9869698) [[Download]](/pdf/CMOES.pdf)[[Code]](https://github.com/MaOEA/CMOES)
+[[Link]](https://ieeexplore.ieee.org/document/9869698) [[Download]](/PDF/CMOES.pdf)[[Code]](https://github.com/MaOEA/CMOES)
 
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TEVC 2024</div><img src='images/CT-EMT-MOES.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- `Zhiwei Xu (许志伟)`, Xiaoming Liu, Kai Zhang\*, and Juanjuan He. Cultural transmission based multi-objective evolution strategy for evolutionary multitasking. *Information Sciences* , vol. 582, pp. 215–242, Jan. 2022. (JCR:Q1; IF：8.1)
+
+- In this paper, a novel multi-objective evolutionary multitasking evolution strategy based on cultural transmission was proposed, namely, CT-EMT-MOES. The proposed algorithm falls into the category of improving knowledge transfer strategy approaches. 
+- Inspired by the modern cultural evolution theory, each individual can be updated by two evolutionary engines named elite-guided variation strategy and horizontal cultural transmission strategy. The elite-guided variation strategy can transfer the current PF information to all individuals and guide the population to quickly converge. Moreover, the horizontal cultural transmission strategy operates under the assumption that, to progress, the current population should also appropriately accept external cultural influences.
+- The horizontal cultural transmission strategy can bring richer diversity to the current population and appropriately promote the convergence of the target task population. To make full use of the two transfer strategies, an adaptive information transfer strategy is proposed to adaptively adjust the probability of the information transfer according to the dominant relationship between the offspring and its parent and thus reasonably allocate the evolutionary resources.
+- In addition, the evolutionary strategy search engine suffices to guide the population based only on the dominant relationship between the offspring and its parent and can cover the true PF even with a small population size. As the population size increases, the PF obtained becomes more specific. This characteristic makes the evolution strategy extremely efficient when solving sub-problems that can only be allocated few search resources from the total population.
+[[Link]](https://www.sciencedirect.com/science/article/pii/S0020025521009282) [[Download]](/PDF/CT_EMT_MOES.pdf)[[Code]](https://github.com/Asurada2015/CT-EMT-MOES)
+
+</div>
+</div>
+
 
 - Bo Feng, Jianbo Wu, Hongming Tu, `Jian Tang`, Yihua Kang. A Review of Magnetic Flux Leakage Nondestructive Testing. *Materials*. 2022, 15 (20): 7362. (JCR:Q1; IF:3.748)  
 [[网页]](https://dx.doi.org/10.3390/ma15207362) [[预览]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf) [[下载]](/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf)
