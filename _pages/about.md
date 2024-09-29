@@ -66,15 +66,12 @@ My research interests include:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TEVC 2024</div><img src='images/CT-EMT-MOES.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INS 2022</div><img src='images/CT-EMT-MOES.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - `Zhiwei Xu (许志伟)`, Xiaoming Liu, Kai Zhang\*, and Juanjuan He. Cultural transmission based multi-objective evolution strategy for evolutionary multitasking. *Information Sciences* , vol. 582, pp. 215–242, Jan. 2022. (JCR:Q1; IF：8.1)
 
-- In this paper, a novel multi-objective evolutionary multitasking evolution strategy based on cultural transmission was proposed, namely, CT-EMT-MOES. The proposed algorithm falls into the category of improving knowledge transfer strategy approaches. 
-- Inspired by the modern cultural evolution theory, each individual can be updated by two evolutionary engines named elite-guided variation strategy and horizontal cultural transmission strategy. The elite-guided variation strategy can transfer the current PF information to all individuals and guide the population to quickly converge. Moreover, the horizontal cultural transmission strategy operates under the assumption that, to progress, the current population should also appropriately accept external cultural influences.
-- The horizontal cultural transmission strategy can bring richer diversity to the current population and appropriately promote the convergence of the target task population. To make full use of the two transfer strategies, an adaptive information transfer strategy is proposed to adaptively adjust the probability of the information transfer according to the dominant relationship between the offspring and its parent and thus reasonably allocate the evolutionary resources.
-- In addition, the evolutionary strategy search engine suffices to guide the population based only on the dominant relationship between the offspring and its parent and can cover the true PF even with a small population size. As the population size increases, the PF obtained becomes more specific. This characteristic makes the evolution strategy extremely efficient when solving sub-problems that can only be allocated few search resources from the total population.
+- In this paper, a novel multi-objective evolution strategy was proposed for solving multitask optimization problems. Inspired by modern cultural evolution theory, elite-guided variation strategy, and horizontal cultural transmission strategy, two evolutionary operators were proposed. The elite-guided variation strategy can transfer the current PF information to all individuals and quickly converge the population. The horizontal cultural transmission strategy can efficiently share information from the source task to the target task. It can bring about richer diversity to the current population and appropriately promote the convergence of the target task population. To make full use of the two transfer strategies, an adaptive information transfer strategy is proposed to adjust the probability of the information transfer adaptively according to the dominant relationship between the offspring and its parent to reasonably allocate the evolutionary resources.  
 [[Link]](https://www.sciencedirect.com/science/article/pii/S0020025521009282) [[Download]](/PDF/CT_EMT_MOES.pdf)[[Code]](https://github.com/Asurada2015/CT-EMT-MOES)
 
 </div>
