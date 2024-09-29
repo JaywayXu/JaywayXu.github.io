@@ -77,6 +77,16 @@ My research interests include:
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INS 2022</div><img src='images/EMT-MOMIEA.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- `Zhiwei Xu (许志伟)`, Kai Zhang, Juanjuan He\*, and Xiaoming Liu. A novel membrane-inspired evolutionary framework for multi-objective multi-task optimization problems. *Information Sciences* , vol. 596, pp. 236–263, Jun. 2022. (JCR:Q1; IF：8.1)  
+
+- In this paper, a multi-objective multi-task evolutionary framework based on membrane system (EMT-MOMIEA) is proposed to solve the multi-objective multi-task optimization (MOMTO) problems. First, the overall algorithm is contained in a skin membrane, and each task is involved in a separate sub-membrane. The rewrite rules are introduced to evolve symbol objects to converge. The communication rules are adopted to exchange and reuse information between the membranes that solve different tasks. Second, a novel membrane system-based two-stage evolution strategy algorithm is proposed as AIM. In the first stage, a novel differential evolution strategy based on dynamic membrane structure (DMS-DES) is utilized to simultaneously perturb all decision variables to optimize linearly non-separable variables roughly. In the second stage, the precision controllable mutation-based evolution strategy (PCM-ES) is applied to mutate a single decision variable to optimize the linearly separable decision variables. Third, inspired by the binding process of information molecules and receptors during information exchange between cells, the information molecule concentration vector (IMCV) concept is proposed. The IMCV can dynamically adjust the information transfer probability and reduce negative information transfer.
+[[Link]](https://www.sciencedirect.com/science/article/pii/S002002552200216X) [[Download]](/PDF/EMT-MOMIEA.pdf)
+</div>
+</div>
+
 ## Publication
 
 <span class='anchor' id='-Pub'></span>
@@ -87,7 +97,8 @@ My research interests include:
 [[Link]](https://www.sciencedirect.com/science/article/pii/S0020025521009282) [[Download]](/PDF/CT_EMT_MOES.pdf)
 - `Zhiwei Xu (许志伟)`, Kai Zhang, Juanjuan He\*, and Xiaoming Liu. A novel membrane-inspired evolutionary framework for multi-objective multi-task optimization problems. *Information Sciences* , vol. 596, pp. 236–263, Jun. 2022. (JCR:Q1; IF：8.1)  
 [[Link]](https://www.sciencedirect.com/science/article/pii/S002002552200216X) [[Download]](/PDF/EMT-MOMIEA.pdf)
-[3] Zhiwei Xu* (许志伟), Jia feng Xu, Kai Zhang, Xin Xu, Juanjuan He, Ni Wu, Decision Variable Classification based Multi-objective Multifactorial Memetic Algorithm for Multi-objective Multi-task Optimization Problem. Applied Soft Computing, vol. 152, p. 111232, Feb. 2024. (中科院1区期刊，Top期刊，IF:8.7, CAA-B)
+- `Zhiwei Xu\* (许志伟)`, Jia feng Xu, Kai Zhang, Xin Xu, Juanjuan He, Ni Wu, Decision Variable Classification based Multi-objective Multifactorial Memetic Algorithm for Multi-objective Multi-task Optimization Problem. Applied Soft Computing, vol. 152, p. 111232, Feb. 2024. (JCR:Q1; IF：8.7)  
+[[Link]](https://www.sciencedirect.com/science/article/pii/S002002552200216X) [[Download]](/PDF/EMT-MOMIEA.pdf)
 [4] Zhiwei Xu (许志伟) and Kai Zhang*. Multiobjective multifactorial immune algorithm for multiobjective multitask optimization problems. Applied Soft Computing, vol. 107, p. 107399, Aug. 2021. (中科院1区期刊，Top期刊，IF:8.7, CAA-B)
 [5] Kai Zhang, Zhiwei Xu(许志伟), Gary G. Yen*, Ling Zhang. Two-Stage Multi-Objective Evolution Strategy for Constrained Multi-Objective Optimization. IEEE Transactions on Evolutionary Computation, vol. 28, no. 1, pp. 17–31, Feb. 2024 (学生排序第二导师第一，IEEE Transactions on Evolutionary Computation，中科院1区期刊，Top期刊，IF:14.3，CCF-B)
 [6] Kai Zhang, Zhiwei Xu(许志伟), Shengli Xie, and Gary G. Yen*. Evolution Strategy-Based Many-Objective Evolutionary Algorithm Through Vector Equilibrium. IEEE Transactions on Cybernetics, vol. 51, no. 11, pp. 5455–5467, Nov. 2021. (学生排序第二导师第一，IEEE Transactions on Cybernetics，中科院1区期刊，Top期刊，IF:11.8，CCF-B)
