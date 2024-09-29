@@ -44,15 +44,13 @@ My research interests include:
 <span class='anchor' id='-lwzl'></span>
 
 ---
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Sensors 2022</div><img src='images/MaOES.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TCYB 2021</div><img src='images/MaOES.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - Kai Zhang, `Zhiwei Xu(许志伟)`, Shengli Xie, and Gary G. Yen*. Evolution Strategy-Based Many-Objective Evolutionary Algorithm Through Vector Equilibrium. *IEEE Transactions on Cybernetics*, vol. 51, no. 11, pp. 5455–5467, Nov. 2021. (JCR:Q1; IF:11.8)
 - In this paper, we propose a novel evolution strategy for solving many-objective optimization problems, named MaOES.
-- The proposed algorithm uses mutation and selection for individual self-adaptation. The Precision Controllable Mutation operator is designed for individuals to explore and exploit the decision space efficiently. The Maximum Extension Distance strategy is tailored to guide the individuals to keep uniform distance among particles in the population and to facilitate the extension to approximate the entire Pareto front automatically.
-
-[[Link]](https://ieeexplore.ieee.org/document/8955947/) [[Download]](/pdf/MaOES.pdf)
-[[Code]](https://github.com/MaOEA/MaOES)
+- The proposed algorithm uses mutation and selection for individual self-adaptation. The Precision Controllable Mutation operator is designed for individuals to explore and exploit the decision space efficiently. The Maximum Extension Distance strategy is tailored to guide the individuals to keep uniform distance among particles in the population and to facilitate the extension to approximate the entire Pareto front automatically.  
+[[Link]](https://ieeexplore.ieee.org/document/8955947/) [[Download]](/pdf/MaOES.pdf)[[Code]](https://github.com/MaOEA/MaOES)
 
 </div>
 </div>
