@@ -89,6 +89,17 @@ My research interests include:
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INS 2022</div><img src='images/MOMFIA.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- `Zhiwei Xu (许志伟)` and Kai Zhang\*. Multiobjective multifactorial immune algorithm for multiobjective multitask optimization problems. *Applied Soft Computing* , vol. 107, p. 107399, Aug. 2021. (JCR:Q1; IF：8.7)
+
+- In this paper, a novel multiobjective multifactorial immune algorithm (MOMFIA) is proposed to solve MOMTO and MOMaTO problems. The proposed MOMFIA applied a novel multipopulation framework and a novel information transfer method based on the dimensional information of solutions (DIS). The proposed multi-population framework can evenly distribute individuals to different subpopulations, each of which maintains an independent task module, can evolve independently, but is also equipped to transfer their knowledge when necessary.  
+[[Link]](https://www.sciencedirect.com/science/article/pii/S1568494621003227) [[Download]](/PDF/MOMFIA.pdf)
+</div>
+</div>
+
+
 ## Publication
 
 <span class='anchor' id='-Pub'></span>
