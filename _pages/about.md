@@ -89,7 +89,7 @@ My research interests include:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">INS 2022</div><img src='images/MOMFIA.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASOC 2021</div><img src='images/MOMFIA.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - `Zhiwei Xu (许志伟)` and Kai Zhang\*. Multiobjective multifactorial immune algorithm for multiobjective multitask optimization problems. *Applied Soft Computing* , vol. 107, p. 107399, Aug. 2021. (JCR:Q1; IF：8.7)
@@ -99,6 +99,18 @@ My research interests include:
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASOC 2024</div><img src='images/HMOMFMA.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- `Zhiwei Xu\* (许志伟)`, Jia feng Xu, Kai Zhang, Xin Xu, Juanjuan He, Ni Wu, Decision Variable Classification based Multi-objective Multifactorial Memetic Algorithm for Multi-objective Multi-task Optimization Problem. *Applied Soft Computing* , vol. 152, p. 111232, Feb. 2024. (JCR:Q1; IF：8.7)  
+[[Link]](https://www.sciencedirect.com/science/article/pii/S1568494624000061) [[Download]](/PDF/HMOMFMA.pdf)
+
+- In this paper, a novel hybrid multi-objective multifactorial memetic algorithm is proposed to solve MOMTO problems. The proposed variable classification method will classify decision variables into convergence-related and diversity-related decision variables. Only the same type of decision variables in the source and target tasks can transfer information to avoid negative transfer. 
+- Different evolutionary operators are adopted according to the characteristics of decision variables during individual recombination. 
+- In addition, the proposed algorithm hybridizes the immune algorithm as the global evolutionary operator and the evolutionary gradient search algorithm as the local search operator into the multifactorial framework to enhance the searching ability.  
+[[Link]](https://www.sciencedirect.com/science/article/pii/S1568494624000061) [[Download]](/PDF/HMOMFMA.pdf)
+</div>
+</div>
 
 ## Publication
 
@@ -110,8 +122,8 @@ My research interests include:
 [[Link]](https://www.sciencedirect.com/science/article/pii/S0020025521009282) [[Download]](/PDF/CT_EMT_MOES.pdf)
 - `Zhiwei Xu (许志伟)`, Kai Zhang, Juanjuan He\*, and Xiaoming Liu. A novel membrane-inspired evolutionary framework for multi-objective multi-task optimization problems. *Information Sciences* , vol. 596, pp. 236–263, Jun. 2022. (JCR:Q1; IF：8.1)  
 [[Link]](https://www.sciencedirect.com/science/article/pii/S002002552200216X) [[Download]](/PDF/EMT-MOMIEA.pdf)
-- `Zhiwei Xu\* (许志伟)`, Jia feng Xu, Kai Zhang, Xin Xu, Juanjuan He, Ni Wu, Decision Variable Classification based Multi-objective Multifactorial Memetic Algorithm for Multi-objective Multi-task Optimization Problem. Applied Soft Computing, vol. 152, p. 111232, Feb. 2024. (JCR:Q1; IF：8.7)  
-[[Link]](https://www.sciencedirect.com/science/article/pii/S002002552200216X) [[Download]](/PDF/EMT-MOMIEA.pdf)
+- `Zhiwei Xu\* (许志伟)`, Jia feng Xu, Kai Zhang, Xin Xu, Juanjuan He, Ni Wu, Decision Variable Classification based Multi-objective Multifactorial Memetic Algorithm for Multi-objective Multi-task Optimization Problem. *Applied Soft Computing* , vol. 152, p. 111232, Feb. 2024. (JCR:Q1; IF：8.7)  
+[[Link]](https://www.sciencedirect.com/science/article/pii/S1568494624000061) [[Download]](/PDF/HMOMFMA.pdf)
 [4] Zhiwei Xu (许志伟) and Kai Zhang*. Multiobjective multifactorial immune algorithm for multiobjective multitask optimization problems. Applied Soft Computing, vol. 107, p. 107399, Aug. 2021. (中科院1区期刊，Top期刊，IF:8.7, CAA-B)
 [5] Kai Zhang, Zhiwei Xu(许志伟), Gary G. Yen*, Ling Zhang. Two-Stage Multi-Objective Evolution Strategy for Constrained Multi-Objective Optimization. IEEE Transactions on Evolutionary Computation, vol. 28, no. 1, pp. 17–31, Feb. 2024 (学生排序第二导师第一，IEEE Transactions on Evolutionary Computation，中科院1区期刊，Top期刊，IF:14.3，CCF-B)
 [6] Kai Zhang, Zhiwei Xu(许志伟), Shengli Xie, and Gary G. Yen*. Evolution Strategy-Based Many-Objective Evolutionary Algorithm Through Vector Equilibrium. IEEE Transactions on Cybernetics, vol. 51, no. 11, pp. 5455–5467, Nov. 2021. (学生排序第二导师第一，IEEE Transactions on Cybernetics，中科院1区期刊，Top期刊，IF:11.8，CCF-B)
