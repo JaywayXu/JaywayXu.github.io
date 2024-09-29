@@ -55,6 +55,18 @@ My research interests include:
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TEVC 2024</div><img src='images/CMOES.svg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+- Kai Zhang, `Zhiwei Xu(许志伟)`, Gary G. Yen*, Ling Zhang. Two-Stage Multi-Objective Evolution Strategy for Constrained Multi-Objective Optimization. *IEEE Transactions on Evolutionary Computation*, vol. 28, no. 1, pp. 17–31, Feb. 2024 (JCR:Q1; IF:14.3)
+- In this paper, a novel parameter-less constraint handling technique is proposed, which divides the whole population into three mutually exclusive subsets dynamically, including FNDS, the subset dominated by FNDS, and the subset not dominated by FNDS. According to the proposed division of labor, it is not necessary to balance the convergence and constrained satisfaction in each subset.
+- Secondly, to avoid been trapped into local optima, the proposed algorithm adopts a two-stage strategy to solve CMOPs.
+- In the first stage, the proposed algorithm focuses solely on converging toward the unconstrained PF without considering the constrained satisfaction.
+- In the second stage, the FNDS constraint handling technique is adopted to guide the population converging towards PF effectively.  
+[[Link]](https://ieeexplore.ieee.org/document/9869698) [[Download]](/pdf/COES.pdf)[[Code]](https://github.com/MaOEA/CMOES)
+
+</div>
+</div>
 
 - Bo Feng, Jianbo Wu, Hongming Tu, `Jian Tang`, Yihua Kang. A Review of Magnetic Flux Leakage Nondestructive Testing. *Materials*. 2022, 15 (20): 7362. (JCR:Q1; IF:3.748)  
 [[网页]](https://dx.doi.org/10.3390/ma15207362) [[预览]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf) [[下载]](/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf)
