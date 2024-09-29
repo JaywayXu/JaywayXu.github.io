@@ -77,6 +77,29 @@ My research interests include:
 </div>
 </div>
 
+## Publication
+
+<span class='anchor' id='-Pub'></span>
+
+---
+
+- `Zhiwei Xu (许志伟)`, Xiaoming Liu, Kai Zhang\*, and Juanjuan He. Cultural transmission based multi-objective evolution strategy for evolutionary multitasking. *Information Sciences* , vol. 582, pp. 215–242, Jan. 2022. (JCR:Q1; IF：8.1)  
+[[Link]](https://www.sciencedirect.com/science/article/pii/S0020025521009282) [[Download]](/PDF/CT_EMT_MOES.pdf)
+- `Zhiwei Xu (许志伟)`, Kai Zhang, Juanjuan He\*, and Xiaoming Liu. A novel membrane-inspired evolutionary framework for multi-objective multi-task optimization problems. *Information Sciences* , vol. 596, pp. 236–263, Jun. 2022. (JCR:Q1; IF：8.1)  
+[[Link]](https://www.sciencedirect.com/science/article/pii/S002002552200216X) [[Download]](/PDF/EMT-MOMIEA.pdf)
+[3] Zhiwei Xu* (许志伟), Jia feng Xu, Kai Zhang, Xin Xu, Juanjuan He, Ni Wu, Decision Variable Classification based Multi-objective Multifactorial Memetic Algorithm for Multi-objective Multi-task Optimization Problem. Applied Soft Computing, vol. 152, p. 111232, Feb. 2024. (中科院1区期刊，Top期刊，IF:8.7, CAA-B)
+[4] Zhiwei Xu (许志伟) and Kai Zhang*. Multiobjective multifactorial immune algorithm for multiobjective multitask optimization problems. Applied Soft Computing, vol. 107, p. 107399, Aug. 2021. (中科院1区期刊，Top期刊，IF:8.7, CAA-B)
+[5] Kai Zhang, Zhiwei Xu(许志伟), Gary G. Yen*, Ling Zhang. Two-Stage Multi-Objective Evolution Strategy for Constrained Multi-Objective Optimization. IEEE Transactions on Evolutionary Computation, vol. 28, no. 1, pp. 17–31, Feb. 2024 (学生排序第二导师第一，IEEE Transactions on Evolutionary Computation，中科院1区期刊，Top期刊，IF:14.3，CCF-B)
+[6] Kai Zhang, Zhiwei Xu(许志伟), Shengli Xie, and Gary G. Yen*. Evolution Strategy-Based Many-Objective Evolutionary Algorithm Through Vector Equilibrium. IEEE Transactions on Cybernetics, vol. 51, no. 11, pp. 5455–5467, Nov. 2021. (学生排序第二导师第一，IEEE Transactions on Cybernetics，中科院1区期刊，Top期刊，IF:11.8，CCF-B)
+[7] Kai Zhang, Chaonan Shen, Gary G. Yen*, Zhiwei Xu(许志伟), and Juanjuan He. Two-Stage Double Niched Evolution Strategy for Multimodal Multiobjective Optimization. IEEE Transactions on Evolutionary Computation, vol. 25, no. 4, pp. 754–768, Aug. 2021. (排序第四，IEEE Transactions on Evolutionary Computation，中科院1区期刊，Top期刊，IF:14.3，CCF-B)
+[8] 张凯, 陈彬, 许志伟*. 基于多目标进化策略算法的DNA核酸编码设计. 电子与信息学报, 2020, 42(6): 1365-1373. (排序第三通讯作者，电子与信息学报,科学出版社，1009-5896)
+[9] Zhiwei Xu(许志伟), Kai Zhang*, Xin Xu, and Juanjuan He. A Fireworks Algorithm Based on Transfer Spark for Evolutionary Multitasking. Frontiers in Neurorobotics, vol. 13, p. 109, Jan. 2020. (排序第一，Frontiers in Neurorobotics，2020，Frontiers，1662-5218)
+[10] Zhiwei Xu(许志伟), Xiaoming Liu, and Kai Zhang*. Mechanical Properties Prediction for Hot Rolled Alloy Steel Using Convolutional Neural Network. IEEE Access, vol. 7, pp. 47068–47078, 2019. (排序第一，IEEE ACCESS，2019，IEEE, 2169-3536)
+[11] Haozhi Zhao, Zhiwei Xu*(许志伟), and K Zhang*. Reference Point Based Multi-objective Evolutionary Algorithm for DNA Sequence Design. International Conference on Bio-Inspired Computing: Theories and Applications, 2019, pp. 178–188. (排序第二通讯作者，International Conference on Bio-Inspired Computing: Theories and Applications，Springer)
+[12] Hao Xu, Zhiwei Xu(许志伟), and Kai Zhang*. Mechanical Properties Prediction for Hot Roll Steel Using Convolutional Neural Network. International Conference on Bio-Inspired Computing: Theories and Applications, 2019, pp. 565–575. (排序第二，International Conference on Bio-Inspired Computing: Theories and Applications，Springer)
+[13] Kai Zhang*, Fang Liu, Chaonan Shen, and Zhiwei Xu(许志伟). Multi-population Evolutionary Algorithm for Multimodal Multobjective Optimization. International Conference on Intelligent Autonomous Systems, 2021, pp. 199–204. (排序第四，International Conference on Intelligent Autonomous Systems，IEEE)
+[14] Fan Li, Kai Zhang, Chaonan Shen, Zhiwei Xu(许志伟). Solving Multimodal Multi-Objective Problems with Local Pareto Front using a Population Clustering Mechanism. International Conference on Machine Learning and Soft Computing, 2023, pp. 34-39. (排序第四, International Conference on Machine Learning and Soft Computing，ACM)
+
 
 - Bo Feng, Jianbo Wu, Hongming Tu, `Jian Tang`, Yihua Kang. A Review of Magnetic Flux Leakage Nondestructive Testing. *Materials*. 2022, 15 (20): 7362. (JCR:Q1; IF:3.748)  
 [[网页]](https://dx.doi.org/10.3390/ma15207362) [[预览]](https://github.com/tangjyan/tangjyan.github.io/blob/main/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf) [[下载]](/pdf/FengB-2022-A%20Review%20of%20Magnetic%20Flux%20Leakage%20Nondestructive%20Testing.pdf)
