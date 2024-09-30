@@ -145,3 +145,12 @@ My research interests include:
 [[Link]](https://ieeexplore.ieee.org/document/9527712) [[Download]](/PDF/ICoIAS.pdf)
 - Fan Li, Kai Zhang\*, Chaonan Shen, `Zhiwei Xu(许志伟)`. Solving Multimodal Multi-Objective Problems with Local Pareto Front using a Population Clustering Mechanism. *International Conference on Machine Learning and Soft Computing*, 2023, pp. 34-39.  
 [[Link]](https://dl.acm.org/doi/10.1145/3583788.3583793) [[Download]](/PDF/ICMLSC.pdf)
+
+## Cooperation specialist
+
+<span class='anchor' id='-Co'></span>
+
+- [Gary G. Yen](https://scholar.google.com/citations?user=6LR55aMAAAAJ&hl), Regents Professor in the School of Electrical and Computer Engineering at Oklahoma State University (OSU), *IEEE Fellow* , *IET Fellow*
+- [Javier Del Ser](https://scholar.google.com/citations?user=p_wY0zUAAAAJ&hl), Research Professor in data analytics and optimization with TECNALIA, Spain, and an Adjunct Professor at the University of the Basque Country (UPV/EHU), *IEEE Senior Member* 
+- [Miqing Li](https://sites.google.com/view/miqing-li), Assistant Professor with the University of Birmingham, Birmingham, U.K, *IEEE Senior Member*
+- [Xin Xu](https://scholar.google.com/citations?hl=en&user=DtuoAWIAAAAJ), Full Professor with the School of Computer Science and Technology, Wuhan University of Science and Technology, China, *IEEE Senior Member*
