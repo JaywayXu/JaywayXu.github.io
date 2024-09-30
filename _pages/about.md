@@ -186,7 +186,7 @@ My research interests include:
   </div>
   <div class="student">
     <img src="images/HNP.jpg" alt="Student 2">
-    <p>学生姓名2</p>
+    <p>何诺飘</p>
   </div>
   <!-- 根据需要添加更多学生 -->
 </div>
