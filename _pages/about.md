@@ -150,7 +150,57 @@ My research interests include:
 
 <span class='anchor' id='-Co'></span>
 
-- [Gary G. Yen](https://scholar.google.com/citations?user=6LR55aMAAAAJ&hl), Regents Professor in the School of Electrical and Computer Engineering at Oklahoma State University (OSU), *IEEE Fellow* , *IET Fellow*
-- [Javier Del Ser](https://scholar.google.com/citations?user=p_wY0zUAAAAJ&hl), Research Professor in data analytics and optimization with TECNALIA, Spain, and an Adjunct Professor at the University of the Basque Country (UPV/EHU), *IEEE Senior Member* 
-- [Miqing Li](https://sites.google.com/view/miqing-li), Assistant Professor with the University of Birmingham, Birmingham, U.K, *IEEE Senior Member*
-- [Xin Xu](https://scholar.google.com/citations?hl=en&user=DtuoAWIAAAAJ), Full Professor with the School of Computer Science and Technology, Wuhan University of Science and Technology, China, *IEEE Senior Member*
+- [Gary G. Yen](https://scholar.google.com/citations?user=6LR55aMAAAAJ), *IET Fellow*, Regents Professor in the School of Electrical and Computer Engineering at Oklahoma State University (OSU).
+- [XingYi Zhang](https://scholar.google.com/citations?user=7lmPe2kAAAAJ), *IEEE Senior Member*, Professor with the School of Computer Science and Technology, Anhui University, Hefei, China.
+- [Javier Del Ser](https://scholar.google.com/citations?user=p_wY0zUAAAAJ), *IEEE Senior Member*, Research Professor in data analytics and optimization with TECNALIA, Spain, and an Adjunct Professor at the University of the Basque Country (UPV/EHU). 
+- [Miqing Li](https://sites.google.com/view/miqing-li), *IEEE Senior Member*, Assistant Professor with the University of Birmingham, Birmingham, U.K. 
+- [Xin Xu](https://scholar.google.com/citations?hl=en&user=DtuoAWIAAAAJ), *IEEE Senior Member*, Full Professor with the School of Computer Science and Technology, Wuhan University of Science and Technology, China.
+
+## Student
+
+<span class='anchor' id='-Stut'></span>
+
+<style>
+.student-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.student {
+  margin: 10px;
+  text-align: center;
+}
+.student img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+</style>
+
+<div class="student-gallery">
+  <div class="student">
+    <img src="images/students/student1.jpg" alt="Student 1">
+    <p>学生姓名1</p>
+  </div>
+  <div class="student">
+    <img src="images/students/student2.jpg" alt="Student 2">
+    <p>学生姓名2</p>
+  </div>
+  <div class="student">
+    <img src="images/students/student3.jpg" alt="Student 3">
+    <p>学生姓名3</p>
+  </div>
+  <div class="student">
+    <img src="images/students/student4.jpg" alt="Student 4">
+    <p>学生姓名4</p>
+  </div>
+  <div class="student">
+    <img src="images/students/student5.jpg" alt="Student 5">
+    <p>学生姓名5</p>
+  </div>
+  <div class="student">
+    <img src="images/students/student6.jpg" alt="Student 6">
+    <p>学生姓名6</p>
+  </div>
+  <!-- 根据需要添加更多学生 -->
+</div>
