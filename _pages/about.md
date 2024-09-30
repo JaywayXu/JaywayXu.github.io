@@ -182,11 +182,11 @@ My research interests include:
 <div class="student-gallery">
   <div class="student">
     <img src="images/WPS.jpg" alt="Student 1">
-    <p>吴屏珊</p>
+    <p>Pingshan Wu</p>
   </div>
   <div class="student">
     <img src="images/HNP.jpg" alt="Student 2">
-    <p>何诺飘</p>
+    <p>Nuopiao He</p>
   </div>
   <!-- 根据需要添加更多学生 -->
 </div>
