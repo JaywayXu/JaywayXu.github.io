@@ -170,19 +170,28 @@ My research interests include:
   justify-content: space-around;
 }
 .prof {
-  display: flex; /* 使用Flexbox来排列图片和文字 */
-  align-items: flex-start; /* 使图片和文字顶部对齐 */
-  margin: 20px 0; /* 调整间距 */
-  text-align: left; /* 设置文字左对齐 */
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 0;
+  text-align: left;
 }
 .prof img {
   width: 150px;
   height: auto;
-  border-radius: 50%; /* 圆形头像 */
-  margin-right: 20px; /* 图片与文字之间的间距 */
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.prof .name {
+  text-align: center; /* 名字居中显示 */
+  width: 150px; /* 与图片宽度一致 */
+  margin-top: 10px; /* 图片和名字之间的间距 */
+}
+.prof .description-container {
+  display: flex;
+  flex-direction: column;
 }
 .prof .description {
-  font-size: 14px; /* 可根据需要调整字体大小 */
+  font-size: 14px;
   margin-top: 0;
   max-width: 800px; /* 限制描述文字的最大宽度 */
 }
@@ -190,20 +199,25 @@ My research interests include:
 
 <div class="prof-gallery">
   <div class="prof">
-    <img src="images/ZK.jpg" alt="prof 1">
-    <p><a href="https://www.researchgate.net/profile/Kai-Zhang-185" target="_blank">Kai Zhang</a></p>
-    <p class="description">Professor Kai Zhang is the Dean of the School of Computer Science and Technology at Wuhan University of Science and Technology and the leader of his research team. He studied under Professor Jin Xu at Peking University. As a doctoral supervisor and professor, he has been recognized as an Excellent Postdoctoral Fellow in Hubei Province and an Outstanding Young Scientific and Technological Worker in Wuhan City. He is an Outstanding Reviewer for IEEE Transactions on Cybernetics (IEEE TCYB) and a member of CCF, CAAI, IEEE, and ACM. He serves on the technical committee of IEEE SMC and is an executive director of the Biological Computing and Bioinformatics Processing Professional Committee of the Chinese Institute of Electronics.Professor Zhang has long been engaged in research in evolutionary computation and multi-objective optimization. He has published over 30 papers in influential academic journals such as IEEE Transactions on Evolutionary Computation (IEEE TEVC), IEEE Transactions on Cybernetics (IEEE TCYB), ACM Transactions on Intelligent Systems and Technology (ACM TIST), Information Sciences, and the Chinese Journal of Computers. He holds six authorized national invention patents.He has led three projects funded by the National Natural Science Foundation of China and one project funded by the Hubei Provincial Natural Science Foundation. He has received two Third Prizes of the Hubei Provincial Scientific and Technological Progress Award and two Second Prizes of the Hubei Provincial Teaching Achievement Award. Additionally, he has published two academic monographs. Professor Zhang teaches undergraduate and graduate courses such as "Data Structures," "Software Design Patterns," "Information Content Security," and "Evolutionary Computation and Multi-objective Optimization." He has supervised nine cohorts of master's students and one cohort of doctoral students.
-</p>
+    <div>
+      <img src="images/ZK.jpg" alt="Kai Zhang">
+      <p class="name"><a href="https://www.researchgate.net/profile/Kai-Zhang-185" target="_blank">Kai Zhang</a></p>
+    </div>
+    <div class="description-container">
+      <p class="description">Professor Kai Zhang is the Dean of the School of Computer Science and Technology at Wuhan University of Science and Technology and the leader of his research team. He studied under Professor Jin Xu at Peking University. As a doctoral supervisor and professor, he has been recognized as an Excellent Postdoctoral Fellow in Hubei Province and an Outstanding Young Scientific and Technological Worker in Wuhan City. He is an Outstanding Reviewer for IEEE Transactions on Cybernetics (IEEE TCYB) and a member of CCF, CAAI, IEEE, and ACM. He serves on the technical committee of IEEE SMC and is an executive director of the Biological Computing and Bioinformatics Processing Professional Committee of the Chinese Institute of Electronics.Professor Zhang has long been engaged in research in evolutionary computation and multi-objective optimization. He has published over 30 papers in influential academic journals such as IEEE Transactions on Evolutionary Computation (IEEE TEVC), IEEE Transactions on Cybernetics (IEEE TCYB), ACM Transactions on Intelligent Systems and Technology (ACM TIST), Information Sciences, and the Chinese Journal of Computers. He holds six authorized national invention patents.He has led three projects funded by the National Natural Science Foundation of China and one project funded by the Hubei Provincial Natural Science Foundation. He has received two Third Prizes of the Hubei Provincial Scientific and Technological Progress Award and two Second Prizes of the Hubei Provincial Teaching Achievement Award. Additionally, he has published two academic monographs. Professor Zhang teaches undergraduate and graduate courses such as "Data Structures," "Software Design Patterns," "Information Content Security," and "Evolutionary Computation and Multi-objective Optimization." He has supervised nine cohorts of master's students and one cohort of doctoral students.</p>
+    </div>
   </div>
+
   <div class="prof">
-    <img src="images/HJJ.jpg" alt="prof 2">
-    <p><a href="https://www.researchgate.net/profile/Juanjuan-He" target="_blank">Juanjuan He</a></p>
-        <p class="description">Professor Juanjuan He studied under Professor Linqiang Pan at Huazhong University of Science and Technology. She has led one General Project and one Youth Project funded by the National Natural Science Foundation of China, one project funded by the Natural Science Foundation of Hubei Province, and one project under the Scientific Research Plan of the Hubei Provincial Department of Education. She has participated in four projects funded by the National Natural Science Foundation of China and has led or participated in multiple industry collaboration projects. She was awarded the Youth Morning Light Plan by the Hubei Provincial Association for Science and Technology and was recognized as a "Chutian Scholar" in Hubei Province. She was approved for a postdoctoral program funded by the China Scholarship Council to conduct a two-year visiting study at the University of Western Ontario in Canada. Professor He has published over 40 academic papers in important domestic and international journals and conferences such as IEEE Transactions on Evolutionary Computation, IEEE Transactions on Cybernetics, Information Sciences, Applied Soft Computing, and the Journal of Electronics & Information Technology. She holds 2 authorized patents.</p>
+    <div>
+      <img src="images/HJJ.jpg" alt="Juanjuan He">
+      <p class="name"><a href="https://www.researchgate.net/profile/Juanjuan-He" target="_blank">Juanjuan He</a></p>
+    </div>
+    <div class="description-container">
+      <p class="description">Professor Juanjuan He studied under Professor Linqiang Pan at Huazhong University of Science and Technology. She has led one General Project and one Youth Project funded by the National Natural Science Foundation of China, one project funded by the Natural Science Foundation of Hubei Province, and one project under the Scientific Research Plan of the Hubei Provincial Department of Education. She has participated in four projects funded by the National Natural Science Foundation of China and has led or participated in multiple industry collaboration projects. She was awarded the Youth Morning Light Plan by the Hubei Provincial Association for Science and Technology and was recognized as a "Chutian Scholar" in Hubei Province. She was approved for a postdoctoral program funded by the China Scholarship Council to conduct a two-year visiting study at the University of Western Ontario in Canada. Professor He has published over 40 academic papers in important domestic and international journals and conferences such as IEEE Transactions on Evolutionary Computation, IEEE Transactions on Cybernetics, Information Sciences, Applied Soft Computing, and the Journal of Electronics & Information Technology. She holds 2 authorized patents.</p>
+    </div>
   </div>
-  <!-- 根据需要添加更多学生 -->
 </div>
-
-
 
 ## Master's degree student
 
