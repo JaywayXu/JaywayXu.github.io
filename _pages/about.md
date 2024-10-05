@@ -158,11 +158,56 @@ My research interests include:
 - [Miqing Li](https://sites.google.com/view/miqing-li), *IEEE Senior Member*, Assistant Professor with the University of Birmingham, Birmingham, U.K. 
 - [Xin Xu](https://scholar.google.com/citations?hl=en&user=DtuoAWIAAAAJ), *IEEE Senior Member*, Full Professor with the School of Computer Science and Technology, Wuhan University of Science and Technology, China.
 
+<span class='anchor' id='-team'></span>
+
+## Team Member
+
+<span class='anchor' id='-Prof'></span>
+<style>
+.prof-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.prof {
+  margin: 10px;
+  text-align: center;
+}
+.prof img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+.prof .description {
+  text-align: left; /* 如果您希望文字左对齐，可以设置为left */
+  font-size: 14px;  /* 可根据需要调整字体大小 */
+  margin-top: 5px;
+}
+</style>
+
+<div class="prof-gallery">
+  <div class="prof">
+    <img src="images/ZK.jpg" alt="prof 1">
+    <p><a href="http://jsjkx.wust.edu.cn/info/1021/33762.htm" target="_blank">Kai Zhang</a></p>
+    <p class="description">Professor Kai Zhang is the Dean of the School of Computer Science and Technology at Wuhan University of Science and Technology and the leader of his research team. He studied under Professor Xu Jin at Peking University. As a doctoral supervisor and professor, he has been recognized as an Excellent Postdoctoral Fellow in Hubei Province and an Outstanding Young Scientific and Technological Worker in Wuhan City. He is an Outstanding Reviewer for IEEE Transactions on Cybernetics (IEEE TCYB) and a member of CCF, CAAI, IEEE, and ACM. He serves on the technical committee of IEEE SMC and is an executive director of the Biological Computing and Bioinformatics Processing Professional Committee of the Chinese Institute of Electronics.
+    Professor Zhang has long been engaged in research in evolutionary computation and multi-objective optimization. He has published over 30 papers in influential academic journals such as IEEE Transactions on Evolutionary Computation (IEEE TEVC), IEEE Transactions on Cybernetics (IEEE TCYB), ACM Transactions on Intelligent Systems and Technology (ACM TIST), Information Sciences, and the Chinese Journal of Computers. He holds six authorized national invention patents.
+    He has led three projects funded by the National Natural Science Foundation of China and one project funded by the Hubei Provincial Natural Science Foundation. He has received two Third Prizes of the Hubei Provincial Scientific and Technological Progress Award and two Second Prizes of the Hubei Provincial Teaching Achievement Award. Additionally, he has published two academic monographs.
+    Professor Zhang teaches undergraduate and graduate courses such as "Data Structures," "Software Design Patterns," "Information Content Security," and "Evolutionary Computation and Multi-objective Optimization." He has supervised nine cohorts of master's students and one cohort of doctoral students.
+</p>
+  </div>
+  <div class="prof">
+    <img src="images/HJJ.jpg" alt="prof 2">
+    <p><a href="http://jsjkx.wust.edu.cn/info/1021/34182.htm" target="_blank">Juanjuan He</a></p>
+        <p class="description">贺娟娟，教授，师从华中科技大学潘林强教授，主持国家自然科学基金全面上项目1项，青年项目1项，湖北省自然科学基金1项，湖北省教育厅科学研究计划1项，参与国家自然科学基金4项，主持参与横向项目多项。获批湖北省科协青年晨光计划。获批湖北省“楚天学子”。获批国家留学基金委博士后项目赴加拿大西安大略大学访学2年。在 IEEE Transactions on Evolutionary Computation、IEEE Transactions on Cybernetics、Information Sciences、Applied Soft Computing、电子与信息学报等国内外重要期刊及会议上发表学术论文40余篇，授权专利2项。</p>
+  </div>
+  <!-- 根据需要添加更多学生 -->
+</div>
+
+
+
 ## Master's degree student
 
 ### 2024
-
-<span class='anchor' id='-Stut'></span>
 
 <style>
 .student-gallery {
