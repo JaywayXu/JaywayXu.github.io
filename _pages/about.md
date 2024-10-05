@@ -170,18 +170,21 @@ My research interests include:
   justify-content: space-around;
 }
 .prof {
-  margin: 10px;
-  text-align: center;
+  display: flex; /* 使用Flexbox来排列图片和文字 */
+  align-items: flex-start; /* 使图片和文字顶部对齐 */
+  margin: 20px 0; /* 调整间距 */
+  text-align: left; /* 设置文字左对齐 */
 }
 .prof img {
   width: 150px;
   height: auto;
-  border-radius: 50%;
+  border-radius: 50%; /* 圆形头像 */
+  margin-right: 20px; /* 图片与文字之间的间距 */
 }
 .prof .description {
-  text-align: left; /* 如果您希望文字左对齐，可以设置为left */
-  font-size: 14px;  /* 可根据需要调整字体大小 */
-  margin-top: 5px;
+  font-size: 14px; /* 可根据需要调整字体大小 */
+  margin-top: 0;
+  max-width: 800px; /* 限制描述文字的最大宽度 */
 }
 </style>
 
