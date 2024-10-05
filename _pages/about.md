@@ -129,6 +129,8 @@ My research interests include:
 [[Link]](https://ieeexplore.ieee.org/document/8955947/) [[Download]](/PDF/MaOES.pdf)[[Code]](https://github.com/MaOEA/MaOES)
 - Kai Zhang, `Zhiwei Xu(许志伟)`, Gary G. Yen\*, Ling Zhang. Two-Stage Multi-Objective Evolution Strategy for Constrained Multi-Objective Optimization. *IEEE Transactions on Evolutionary Computation* , vol. 28, no. 1, pp. 17–31, Feb. 2024 (JCR:Q1; IF:14.3)  
 [[Link]](https://ieeexplore.ieee.org/document/9869698) [[Download]](/PDF/CMOES.pdf)[[Code]](https://github.com/MaOEA/CMOES)
+- JuanJuan He, Qian Yang, `Zhiwei Xu`, Kai Zhang, Xingyi Zhang, Mingfeng Ge\*. Two-stage multimodal multi-objective evolutionary algorithm based on global density updating strategy. *SCIENTIA SINICA Informationis* , 2024. (CCF-A)  
+[[Link]](https://www.sciengine.com/SSI/doi/10.1360/SSI-2022-0294) [[Download]](/PDF/SSI2024.pdf)
 - Kai Zhang, Chaonan Shen, Gary G. Yen\*, `Zhiwei Xu(许志伟)` , and Juanjuan He. Two-Stage Double Niched Evolution Strategy for Multimodal Multiobjective Optimization. *IEEE Transactions on Evolutionary Computation* , vol. 25, no. 4, pp. 754–768, Aug. 2021. (JCR:Q1; IF:14.3)  
 [[Link]](https://ieeexplore.ieee.org/document/9372341) [[Download]](/PDF/DN-MMOES.pdf)[[Code]](https://github.com/MaOEA/DN-MMOES)
 - Kai Zhang, Bin Chen, `Zhiwei Xu(许志伟)`\*. A Multiobjective Evolution Strategy Algorithm for DNA Sequence Design. *Journal of Electronics & Information Technology* , 2020, 42(6): 1365-1373.  
