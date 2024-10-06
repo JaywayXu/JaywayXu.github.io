@@ -160,7 +160,7 @@ My research interests include:
 
 <span class='anchor' id='-team'></span>
 
-## Team Member
+## Team specialist
 
 <span class='anchor' id='-Prof'></span>
 <style>
