@@ -243,11 +243,11 @@ My research interests include:
 <div class="student-gallery">
   <div class="student">
     <img src="images/WPS.jpg" alt="Student 1">
-    <p>Pingshan Wu</p>
+    <p><a href="https://github.com/JaywayXu/PingShanWu" target="_blank">Pingshan Wu</a></p>
   </div>
   <div class="student">
     <img src="images/HNP.jpg" alt="Student 2">
-    <p>Nuopiao He</p>
+    <p><a href="https://github.com/JaywayXu/NuopiaoHe" target="_blank">Nuopiao He</a></p>
   </div>
   <!-- 根据需要添加更多学生 -->
 </div>
