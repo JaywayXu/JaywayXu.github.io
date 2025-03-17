@@ -153,6 +153,7 @@ My research interests include:
 <span class='anchor' id='-Co'></span>
 
 - [Gary G. Yen](https://scholar.google.com/citations?user=6LR55aMAAAAJ), *IET Fellow*, *IEEE Fellow*, Regents Professor in the School of Electrical and Computer Engineering at Oklahoma State University (OSU).
+- [Linqiang Pan](https://scholar.google.com/citations?user=jZRwWG8AAAAJ), Professor with School of Artificial Intelligence and Automation, Huazhong University of Science and Technology, Wuhan, China.
 - [Xingyi Zhang](https://scholar.google.com/citations?user=7lmPe2kAAAAJ), *IEEE Fellow*, Professor with the School of Computer Science and Technology, Anhui University, Hefei, China.
 - [Javier Del Ser](https://scholar.google.com/citations?user=p_wY0zUAAAAJ), *IEEE Senior Member*, Research Professor in data analytics and optimization with TECNALIA, Spain, and an Adjunct Professor at the University of the Basque Country (UPV/EHU). 
 - [Miqing Li](https://sites.google.com/view/miqing-li), *IEEE Senior Member*, Assistant Professor with the University of Birmingham, Birmingham, U.K. 
@@ -215,6 +216,16 @@ My research interests include:
     </div>
     <div class="description-container">
       <p class="description">Professor Juanjuan He studied under Professor Linqiang Pan at Huazhong University of Science and Technology. She has led one General Project and one Youth Project funded by the National Natural Science Foundation of China, one project funded by the Natural Science Foundation of Hubei Province, and one project under the Scientific Research Plan of the Hubei Provincial Department of Education. She has participated in four projects funded by the National Natural Science Foundation of China and has led or participated in multiple industry collaboration projects. She was awarded the Youth Morning Light Plan by the Hubei Provincial Association for Science and Technology and was recognized as a "Chutian Scholar" in Hubei Province. She was approved for a postdoctoral program funded by the China Scholarship Council to conduct a two-year visiting study at the University of Western Ontario in Canada. Professor He has published over 40 academic papers in important domestic and international journals and conferences such as IEEE Transactions on Evolutionary Computation, IEEE Transactions on Cybernetics, Information Sciences, Applied Soft Computing, and the Journal of Electronics & Information Technology. She holds 2 authorized patents.</p>
+    </div>
+  </div>
+
+  <div class="prof">
+    <div>
+      <img src="images/QQD.jpg" alt="QiQi Duan">
+      <p class="name"><a href="https://evolutionary-intelligence.github.io/About/" target="_blank">Qiqi Duan</a></p>
+    </div>
+    <div class="description-container">
+      <p class="description">Qiqi Duan is now studying Swarm Intelligence (particularly Swarming of Foundation Models) and Distributed Evolutionary Computation (especially Meta-Evolution) for scalable optimization of Complex Systems at SUSTech, Shenzhen, China. He is one of core developers of the Open-Source software PyPop7 for population-based black-box optimization, published in one top-tier Machine Learning journal JMLR (CCF-A) and also published distributed meta-evolution strategies on one top-tier distributed system journal TPDS (CCF-A), extending his PPSN (CCF-B) conference paper which obtained the Best Paper nomination. Till now, his open-source pure-Python library PyPop7 has been used and cited by one Nature paper and others.</p>
     </div>
   </div>
 </div>
