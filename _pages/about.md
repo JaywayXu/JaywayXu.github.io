@@ -19,7 +19,7 @@ redirect_from:
 
 ## ZhiweiXu(许志伟)
 
-I am currently a lecturer at the School of Computer Science and Technology, Wuhan University of Science and Technology, I am currently a lecturer at the School of Computer Science and Technology, Wuhan University of Science and Technology, China. I am a member of the **Institute of Electrical and Electronics Engineers (IEEE)**, **China Computer Federation (CCF)**, **Association for Computing Machinery (ACM)**, **Chinese Association for Artificial Intelligence (CAAI)**, **Chinese Association of Automation (CAA)**, **Chinese Institute of Electronics (CIE)**  **IEEE Systems, Man, and Cybernetics Society (IEEE-SMC)**, **IEEE Computational Intelligence Society (IEEE-CIS)**, and **ACM Special Interest Group on Genetic and Evolutionary Computation (ACM-SIGEVO)**. Recognized as a high-quality content creator and blogging expert in the field of artificial intelligence on CSDN, I have actively contributed to the academic community.
+I am currently a lecturer at the School of Computer Science and Technology, Wuhan University of Science and Technology, I am currently a lecturer at the School of Computer Science and Technology, Wuhan University of Science and Technology, China. I am a member of the **Institute of Electrical and Electronics Engineers (IEEE)**, **China Computer Federation (CCF)**, **Association for Computing Machinery (ACM)**, **Chinese Association for Artificial Intelligence (CAAI)**, **Chinese Association of Automation (CAA)**, **Chinese Institute of Electronics (CIE)**, **Technical Committee on Intelligent Simulation Optimization and Scheduling, Chinese Association for System Simulation**, **IEEE Systems, Man, and Cybernetics Society (IEEE-SMC)**, **IEEE Computational Intelligence Society (IEEE-CIS)**, and **ACM Special Interest Group on Genetic and Evolutionary Computation (ACM-SIGEVO)**. Recognized as a high-quality content creator and blogging expert in the field of artificial intelligence on CSDN, I have actively contributed to the academic community.
 
 I was awarded the National Scholarship for Master's students in 2019 and the National Scholarship for Doctoral students in 2021 and 2022 by the Ministry of Education of China. Recently, I have achieved significant advancements and breakthroughs in multi-task multi-objective optimization, constrained multi-objective optimization, and high-dimensional multi-objective optimization.
 
@@ -30,7 +30,7 @@ I was recognized as an Excellent Graduate Student at the Annual Meeting and Acad
 My research interests include:
 
 - Evolutionary Computation
-- Multi-objective Optimization (many-objective, constrained, multi-task, large-scale, etc.)
+- Multi-objective Optimization (Many-objective, Constrained, Multi-task, Multimodal, etc.)
 - DNA Computing, Encoding, and Self-Assembly
 - RNA Structure Prediction
 - Multi-objective Path Planning
