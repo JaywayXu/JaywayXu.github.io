@@ -72,12 +72,10 @@ redirect_from:
 
 .research-carousel-caption h3 {
   margin: 0 0 10px 0;
-  font-size: 26px;
-  font-weight: 800;
+  font-size: 24px;
+  font-weight: 700;
   line-height: 1.3;
-  color: #b5485d; /* 柔和酒红色，不会过于刺眼 */
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.28);
-  letter-spacing: 0.3px;
+  color: #fff; /* 柔和酒红色，不会过于刺眼 */
 }
 
 .research-carousel-caption p {
@@ -85,9 +83,8 @@ redirect_from:
   font-size: 16px;
   line-height: 1.65;
   max-width: 850px;
-  color: #d46a79; /* 比标题更柔和的红色 */
+  color: #fff; /* 比标题更柔和的红色 */
   font-weight: 600;
-  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.22);
 }
 
 
@@ -185,6 +182,16 @@ redirect_from:
   </div>
 </div>
 
+<div class="research-carousel-slide"> 
+  <img src="images/carousel/Ishibuchi_wust.jpg" alt="Welcome Professor Hisao Ishibuchi">
+  <div class="research-carousel-caption welcome-caption">
+    <h3>Warmly Welcome IEEE Fellow Professor Hisao Ishibuchi to Visit Our Research Group</h3>
+    <p>
+      It is a great honor for our research group to welcome Professor Hisao Ishibuchi, IEEE Fellow,
+      for academic exchange and scholarly discussion.
+    </p>
+  </div>
+</div>
 
       <div class="research-carousel-slide">
         <img src="images/carousel/Ishibuchi_wust.jpg" alt="Research highlight 2">
