@@ -194,12 +194,13 @@ redirect_from:
 </div>
 
 <div class="research-carousel-slide"> 
-  <img src="images/carousel/23_Gary_wust.jpg" alt="Welcome Professor Gary G. Yen">
+  <img src="images/carousel/BICTA25.jpg" alt="BICTA 2025 Group Photo">
   <div class="research-carousel-caption">
-    <h3>Warmly Welcome IEEE Fellow Professor Gary G. Yen to Visit Our Research Group in 2023</h3>
+    <h3>Our Research Group Co-organized BICTA 2025</h3>
     <p>
-      It is a great honor for our research group to welcome Professor Gary G. Yen, IEEE Fellow,
-      for academic exchange and scholarly discussion.
+      As a co-organizer of BICTA 2025, our research group actively supported scholarly
+      exchange and interdisciplinary collaboration in bio-inspired computing,
+      evolutionary computation, and intelligent optimization.
     </p>
   </div>
 </div>
@@ -216,13 +217,12 @@ redirect_from:
 </div>
 
 <div class="research-carousel-slide"> 
-  <img src="images/carousel/BICTA25.jpg" alt="BICTA 2025 Group Photo">
+  <img src="images/carousel/23_Gary_wust.jpg" alt="Welcome Professor Gary G. Yen">
   <div class="research-carousel-caption">
-    <h3>Our Research Group Co-organized BICTA 2025</h3>
+    <h3>Warmly Welcome IEEE Fellow Professor Gary G. Yen to Visit Our Research Group in 2023</h3>
     <p>
-      As a co-organizer of BICTA 2025, our research group actively supported scholarly
-      exchange and interdisciplinary collaboration in bio-inspired computing,
-      evolutionary computation, and intelligent optimization.
+      It is a great honor for our research group to welcome Professor Gary G. Yen, IEEE Fellow,
+      for academic exchange and scholarly discussion.
     </p>
   </div>
 </div>
@@ -575,9 +575,6 @@ My research interests include:
   </div>
 
 
-
-
-
 ## Master's degree student
 
 ### 2024
@@ -607,6 +604,26 @@ My research interests include:
   <div class="student">
     <img src="images/HNP.jpg" alt="Student 2">
     <p><a href="https://github.com/JaywayXu/NuopiaoHe" target="_blank">Nuopiao He</a></p>
+  </div>
+  <!-- 根据需要添加更多学生 -->
+</div>
+
+### 2025
+
+<div class="student-gallery">
+  <div class="student">
+    <img src="images/CPL.jpg" alt="Student 3">
+    <p><a target="_blank">Pilin Chen</a></p>
+  </div>
+  <!-- 根据需要添加更多学生 -->
+</div>
+
+### 2026
+
+<div class="student-gallery">
+  <div class="student">
+    <img src="images/HYR.jpg" alt="Student 4">
+    <p><a target="_blank">Pilin Chen</a></p>
   </div>
   <!-- 根据需要添加更多学生 -->
 </div>
