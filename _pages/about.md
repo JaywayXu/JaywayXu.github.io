@@ -174,7 +174,7 @@ redirect_from:
 <div class="research-carousel-slide"> 
   <img src="images/carousel/Gary_wust.jpg" alt="Welcome Professor Gary G. Yen">
   <div class="research-carousel-caption welcome-caption">
-    <h3>Warmly Welcome IEEE Fellow Professor Gary G. Yen to Visit Our Research Group</h3>
+    <h3>Warmly Welcome IEEE Fellow Professor Gary G. Yen to Visit Our Research Group in 2025</h3>
     <p>
       It is a great honor for our research group to welcome Professor Gary G. Yen, IEEE Fellow,
       for academic exchange and scholarly discussion.
@@ -185,7 +185,7 @@ redirect_from:
 <div class="research-carousel-slide"> 
   <img src="images/carousel/Ishibuchi_wust.jpg" alt="Welcome Professor Hisao Ishibuchi">
   <div class="research-carousel-caption welcome-caption">
-    <h3>Warmly Welcome IEEE Fellow Professor Hisao Ishibuchi to Visit Our Research Group</h3>
+    <h3>Warmly Welcome IEEE Fellow Professor Hisao Ishibuchi to Visit Our Research Group in 2025</h3>
     <p>
       It is a great honor for our research group to welcome Professor Hisao Ishibuchi, IEEE Fellow,
       for academic exchange and scholarly discussion.
@@ -193,38 +193,39 @@ redirect_from:
   </div>
 </div>
 
-      <div class="research-carousel-slide">
-        <img src="images/carousel/Ishibuchi_wust.jpg" alt="Research highlight 2">
-        <div class="research-carousel-caption">
-          <h3>Intelligent Transportation and Path Planning</h3>
-          <p>
-            We develop advanced optimization algorithms for vehicle routing, path planning,
-            multimodal transportation, and emergency logistics.
-          </p>
-        </div>
-      </div>
+<div class="research-carousel-slide"> 
+  <img src="images/carousel/23_Gary_wust" alt="Welcome Professor Gary G. Yen">
+  <div class="research-carousel-caption welcome-caption">
+    <h3>Warmly Welcome IEEE Fellow Professor Gary G. Yen to Visit Our Research Group in 2023</h3>
+    <p>
+      It is a great honor for our research group to welcome Professor Gary G. Yen, IEEE Fellow,
+      for academic exchange and scholarly discussion.
+    </p>
+  </div>
+</div>
 
-      <div class="research-carousel-slide">
-        <img src="images/carousel/Gary_wust.jpg" alt="Research highlight 3">
-        <div class="research-carousel-caption">
-          <h3>Multitask and Constrained Optimization</h3>
-          <p>
-            Our recent studies investigate knowledge transfer, constraint handling,
-            multimodal search, and large-scale optimization in dynamic environments.
-          </p>
-        </div>
-      </div>
+<div class="research-carousel-slide"> 
+  <img src="images/carousel/TY" alt="Welcome Professor Ye Tian">
+  <div class="research-carousel-caption welcome-caption">
+    <h3>Warmly Welcome Professor Ye Tian to Visit Our Research Group in 2025</h3>
+    <p>
+      It is a great honor for our research group to welcome Professor Ye Tian,
+      for academic exchange and scholarly discussion.
+    </p>
+  </div>
+</div>
 
-      <div class="research-carousel-slide">
-        <img src="images/carousel/BICTA25.jpg" alt="Research highlight 4">
-        <div class="research-carousel-caption">
-          <h3>Research Collaboration and Academic Activities</h3>
-          <p>
-            The team actively collaborates with leading researchers and publishes in
-            high-impact journals including TEVC, TCYB, TITS, Information Sciences, and ASOC.
-          </p>
-        </div>
-      </div>
+<div class="research-carousel-slide"> 
+  <img src="images/carousel/BICTA25" alt="BICTA 2025 Group Photo">
+  <div class="research-carousel-caption welcome-caption">
+    <h3>Our Research Group Co-organized BICTA 2025</h3>
+    <p>
+      As a co-organizer of BICTA 2025, our research group actively supported scholarly
+      exchange and interdisciplinary collaboration in bio-inspired computing,
+      evolutionary computation, and intelligent optimization.
+    </p>
+  </div>
+</div>
 
     </div>
 
@@ -538,7 +539,7 @@ My research interests include:
       <p class="name"><a href="https://www.researchgate.net/profile/Kai-Zhang-185" target="_blank">Kai Zhang</a></p>
     </div>
     <div class="description-container">
-      <p class="description">Professor Kai Zhang is the Dean of the School of Computer Science and Technology at Wuhan University of Science and Technology and the leader of his research team. He studied under Professor Jin Xu at Peking University. As a doctoral supervisor and professor, he has been recognized as an Excellent Postdoctoral Fellow in Hubei Province and an Outstanding Young Scientific and Technological Worker in Wuhan City. He is an Outstanding Reviewer for IEEE Transactions on Cybernetics (IEEE TCYB) and a member of CCF, CAAI, IEEE, and ACM. He serves on the technical committee of IEEE SMC and is an executive director of the Biological Computing and Bioinformatics Processing Professional Committee of the Chinese Institute of Electronics.Professor Zhang has long been engaged in research in evolutionary computation and multi-objective optimization. He has published over 30 papers in influential academic journals such as IEEE Transactions on Evolutionary Computation (IEEE TEVC), IEEE Transactions on Cybernetics (IEEE TCYB), ACM Transactions on Intelligent Systems and Technology (ACM TIST), Information Sciences, and the Chinese Journal of Computers. He holds six authorized national invention patents.He has led three projects funded by the National Natural Science Foundation of China and one project funded by the Hubei Provincial Natural Science Foundation. He has received two Third Prizes of the Hubei Provincial Scientific and Technological Progress Award and two Second Prizes of the Hubei Provincial Teaching Achievement Award. Additionally, he has published two academic monographs. Professor Zhang teaches undergraduate and graduate courses such as "Data Structures," "Software Design Patterns," "Information Content Security," and "Evolutionary Computation and Multi-objective Optimization." He has supervised nine cohorts of master's students and one cohort of doctoral students.</p>
+      <p class="description">Professor Kai Zhang is the Dean of the Graduate School of Wuhan University of Science and Technology, the Dean of the School of Computer Science and Technology at Wuhan University of Science and Technology, the Director of the Hubei Provincial Key Laboratory of Intelligent Information Processing and Real-time Industrial Systems in China, and the leader of this research team. He studied under Professor Jin Xu at Peking University. As a doctoral supervisor and professor, he has been recognized as an Excellent Postdoctoral Fellow in Hubei Province and an Outstanding Young Scientific and Technological Worker in Wuhan City. He is an Outstanding Reviewer for IEEE Transactions on Cybernetics (IEEE TCYB) and a member of CCF, CAAI, IEEE, and ACM. He serves on the technical committee of IEEE SMC and is an executive director of the Biological Computing and Bioinformatics Processing Professional Committee of the Chinese Institute of Electronics.Professor Zhang has long been engaged in research in evolutionary computation and multi-objective optimization. He has published over 30 papers in influential academic journals such as IEEE Transactions on Evolutionary Computation (IEEE TEVC), IEEE Transactions on Cybernetics (IEEE TCYB), ACM Transactions on Intelligent Systems and Technology (ACM TIST), Information Sciences, and the Chinese Journal of Computers. He holds six authorized national invention patents.He has led three projects funded by the National Natural Science Foundation of China and one project funded by the Hubei Provincial Natural Science Foundation. He has received two Third Prizes of the Hubei Provincial Scientific and Technological Progress Award and two Second Prizes of the Hubei Provincial Teaching Achievement Award. Additionally, he has published two academic monographs. Professor Zhang teaches undergraduate and graduate courses such as "Data Structures," "Software Design Patterns," "Information Content Security," and "Evolutionary Computation and Multi-objective Optimization." He has supervised nine cohorts of master's students and one cohort of doctoral students.</p>
     </div>
   </div>
 
