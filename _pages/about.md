@@ -70,23 +70,21 @@ redirect_from:
   );
 }
 
-.welcome-caption h3 {
+.research-carousel-caption h3 {
   margin: 0 0 8px 0;
-  font-size: 26px;
-  font-weight: 800;
+  font-size: 24px;
+  font-weight: 700;
   color: #ff2b2b;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.65);
 }
 
-.welcome-caption p {
+.research-carousel-caption p {
   margin: 0;
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 15px;
+  line-height: 1.55;
   max-width: 850px;
-  color: #ff4d4d;
-  font-weight: 600;
-  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+  color: #f2f2f2;
 }
+
 
 .research-carousel-btn {
   position: absolute;
