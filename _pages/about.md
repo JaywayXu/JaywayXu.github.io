@@ -49,6 +49,298 @@ My research interests include:
 
 ---
 
+<!-- ================= Research Highlights Carousel Start ================= -->
+
+<style>
+.research-carousel-wrapper {
+  width: 100%;
+  margin: 28px auto 42px auto;
+  position: relative;
+}
+
+.research-carousel {
+  position: relative;
+  width: 100%;
+  height: 430px;
+  overflow: hidden;
+  border-radius: 18px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.16);
+  background: #f5f5f5;
+}
+
+.research-carousel-track {
+  display: flex;
+  height: 100%;
+  transition: transform 0.75s ease-in-out;
+}
+
+.research-carousel-slide {
+  min-width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.research-carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.research-carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 26px 34px;
+  color: #fff;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.72),
+    rgba(0, 0, 0, 0.38),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.research-carousel-caption h3 {
+  margin: 0 0 8px 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.research-carousel-caption p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.55;
+  max-width: 850px;
+  color: #f2f2f2;
+}
+
+.research-carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.42);
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 5;
+  transition: all 0.25s ease;
+}
+
+.research-carousel-btn:hover {
+  background: rgba(0, 0, 0, 0.68);
+}
+
+.research-carousel-btn.prev {
+  left: 16px;
+}
+
+.research-carousel-btn.next {
+  right: 16px;
+}
+
+.research-carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+  margin-top: 14px;
+}
+
+.research-carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background: #c9c9c9;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.research-carousel-dot.active {
+  width: 26px;
+  border-radius: 999px;
+  background: #3b82f6;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .research-carousel {
+    height: 260px;
+    border-radius: 12px;
+  }
+
+  .research-carousel-caption {
+    padding: 18px 20px;
+  }
+
+  .research-carousel-caption h3 {
+    font-size: 18px;
+  }
+
+  .research-carousel-caption p {
+    font-size: 13px;
+    line-height: 1.45;
+  }
+
+  .research-carousel-btn {
+    width: 34px;
+    height: 34px;
+    font-size: 20px;
+  }
+}
+</style>
+
+<div class="research-carousel-wrapper">
+  <div class="research-carousel" id="researchCarousel">
+    <div class="research-carousel-track">
+
+      <div class="research-carousel-slide">
+        <img src="images/carousel/TY.jpg" alt="Research highlight 1">
+        <div class="research-carousel-caption">
+          <h3>Evolutionary Computation and Multi-objective Optimization</h3>
+          <p>
+            Our group focuses on evolutionary computation, multi-objective optimization,
+            and intelligent decision-making for complex engineering systems.
+          </p>
+        </div>
+      </div>
+
+      <div class="research-carousel-slide">
+        <img src="images/carousel/Ishibuchi_wust.jpg" alt="Research highlight 2">
+        <div class="research-carousel-caption">
+          <h3>Intelligent Transportation and Path Planning</h3>
+          <p>
+            We develop advanced optimization algorithms for vehicle routing, path planning,
+            multimodal transportation, and emergency logistics.
+          </p>
+        </div>
+      </div>
+
+      <div class="research-carousel-slide">
+        <img src="images/carousel/Gary_wust.jpg" alt="Research highlight 3">
+        <div class="research-carousel-caption">
+          <h3>Multitask and Constrained Optimization</h3>
+          <p>
+            Our recent studies investigate knowledge transfer, constraint handling,
+            multimodal search, and large-scale optimization in dynamic environments.
+          </p>
+        </div>
+      </div>
+
+      <div class="research-carousel-slide">
+        <img src="images/carousel/BICTA25.jpg" alt="Research highlight 4">
+        <div class="research-carousel-caption">
+          <h3>Research Collaboration and Academic Activities</h3>
+          <p>
+            The team actively collaborates with leading researchers and publishes in
+            high-impact journals including TEVC, TCYB, TITS, Information Sciences, and ASOC.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="research-carousel-btn prev" type="button" aria-label="Previous slide">&#10094;</button>
+    <button class="research-carousel-btn next" type="button" aria-label="Next slide">&#10095;</button>
+  </div>
+
+  <div class="research-carousel-dots" id="researchCarouselDots"></div>
+</div>
+
+<script>
+(function () {
+  const carousel = document.getElementById("researchCarousel");
+  if (!carousel) return;
+
+  const track = carousel.querySelector(".research-carousel-track");
+  const slides = Array.from(carousel.querySelectorAll(".research-carousel-slide"));
+  const prevBtn = carousel.querySelector(".research-carousel-btn.prev");
+  const nextBtn = carousel.querySelector(".research-carousel-btn.next");
+  const dotsContainer = document.getElementById("researchCarouselDots");
+
+  let currentIndex = 0;
+  let autoPlayTimer = null;
+  const interval = 4500;
+
+  slides.forEach(function (_, index) {
+    const dot = document.createElement("button");
+    dot.className = "research-carousel-dot";
+    dot.type = "button";
+    dot.setAttribute("aria-label", "Go to slide " + (index + 1));
+    dot.addEventListener("click", function () {
+      goToSlide(index);
+      restartAutoPlay();
+    });
+    dotsContainer.appendChild(dot);
+  });
+
+  const dots = Array.from(dotsContainer.querySelectorAll(".research-carousel-dot"));
+
+  function updateCarousel() {
+    track.style.transform = "translateX(-" + currentIndex * 100 + "%)";
+    dots.forEach(function (dot, index) {
+      dot.classList.toggle("active", index === currentIndex);
+    });
+  }
+
+  function goToSlide(index) {
+    currentIndex = (index + slides.length) % slides.length;
+    updateCarousel();
+  }
+
+  function nextSlide() {
+    goToSlide(currentIndex + 1);
+  }
+
+  function prevSlide() {
+    goToSlide(currentIndex - 1);
+  }
+
+  function startAutoPlay() {
+    autoPlayTimer = setInterval(nextSlide, interval);
+  }
+
+  function stopAutoPlay() {
+    if (autoPlayTimer) {
+      clearInterval(autoPlayTimer);
+      autoPlayTimer = null;
+    }
+  }
+
+  function restartAutoPlay() {
+    stopAutoPlay();
+    startAutoPlay();
+  }
+
+  nextBtn.addEventListener("click", function () {
+    nextSlide();
+    restartAutoPlay();
+  });
+
+  prevBtn.addEventListener("click", function () {
+    prevSlide();
+    restartAutoPlay();
+  });
+
+  carousel.addEventListener("mouseenter", stopAutoPlay);
+  carousel.addEventListener("mouseleave", startAutoPlay);
+
+  updateCarousel();
+  startAutoPlay();
+})();
+</script>
+
+<!-- ================= Research Highlights Carousel End ================= -->
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TITS 2025</div><img src='images/MMOEA-CDP.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
