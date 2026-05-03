@@ -227,6 +227,40 @@ redirect_from:
   </div>
 </div>
 
+
+      <div class="research-carousel-slide">
+        <img src="images/carousel/Ishibuchi_wust.jpg" alt="Research highlight 2">
+        <div class="research-carousel-caption">
+          <h3>Intelligent Transportation and Path Planning</h3>
+          <p>
+            We develop advanced optimization algorithms for vehicle routing, path planning,
+            multimodal transportation, and emergency logistics.
+          </p>
+        </div>
+      </div>
+
+      <div class="research-carousel-slide">
+        <img src="images/carousel/Gary_wust.jpg" alt="Research highlight 3">
+        <div class="research-carousel-caption">
+          <h3>Multitask and Constrained Optimization</h3>
+          <p>
+            Our recent studies investigate knowledge transfer, constraint handling,
+            multimodal search, and large-scale optimization in dynamic environments.
+          </p>
+        </div>
+      </div>
+
+      <div class="research-carousel-slide">
+        <img src="images/carousel/BICTA25.jpg" alt="Research highlight 4">
+        <div class="research-carousel-caption">
+          <h3>Research Collaboration and Academic Activities</h3>
+          <p>
+            The team actively collaborates with leading researchers and publishes in
+            high-impact journals including TEVC, TCYB, TITS, Information Sciences, and ASOC.
+          </p>
+        </div>
+      </div>
+
     </div>
 
     <button class="research-carousel-btn prev" type="button" aria-label="Previous slide">&#10094;</button>
