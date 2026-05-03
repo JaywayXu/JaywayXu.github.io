@@ -184,7 +184,7 @@ redirect_from:
 
 <div class="research-carousel-slide"> 
   <img src="images/carousel/Ishibuchi_wust.jpg" alt="Welcome Professor Hisao Ishibuchi">
-  <div class="research-carousel-caption welcome-caption">
+  <div class="research-carousel-caption">
     <h3>Warmly Welcome IEEE Fellow Professor Hisao Ishibuchi to Visit Our Research Group in 2025</h3>
     <p>
       It is a great honor for our research group to welcome Professor Hisao Ishibuchi, IEEE Fellow,
@@ -195,7 +195,7 @@ redirect_from:
 
 <div class="research-carousel-slide"> 
   <img src="images/carousel/23_Gary_wust" alt="Welcome Professor Gary G. Yen">
-  <div class="research-carousel-caption welcome-caption">
+  <div class="research-carousel-caption">
     <h3>Warmly Welcome IEEE Fellow Professor Gary G. Yen to Visit Our Research Group in 2023</h3>
     <p>
       It is a great honor for our research group to welcome Professor Gary G. Yen, IEEE Fellow,
@@ -206,7 +206,7 @@ redirect_from:
 
 <div class="research-carousel-slide"> 
   <img src="images/carousel/TY" alt="Welcome Professor Ye Tian">
-  <div class="research-carousel-caption welcome-caption">
+  <div class="research-carousel-caption">
     <h3>Warmly Welcome Professor Ye Tian to Visit Our Research Group in 2025</h3>
     <p>
       It is a great honor for our research group to welcome Professor Ye Tian,
@@ -217,7 +217,7 @@ redirect_from:
 
 <div class="research-carousel-slide"> 
   <img src="images/carousel/BICTA25" alt="BICTA 2025 Group Photo">
-  <div class="research-carousel-caption welcome-caption">
+  <div class="research-carousel-caption">
     <h3>Our Research Group Co-organized BICTA 2025</h3>
     <p>
       As a co-organizer of BICTA 2025, our research group actively supported scholarly
