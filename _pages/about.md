@@ -70,19 +70,22 @@ redirect_from:
   );
 }
 
-.research-carousel-caption h3 {
+.welcome-caption h3 {
   margin: 0 0 8px 0;
-  font-size: 24px;
-  font-weight: 700;
-  color: #fff;
+  font-size: 26px;
+  font-weight: 800;
+  color: #ff2b2b;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.65);
 }
 
-.research-carousel-caption p {
+.welcome-caption p {
   margin: 0;
-  font-size: 15px;
-  line-height: 1.55;
+  font-size: 16px;
+  line-height: 1.6;
   max-width: 850px;
-  color: #f2f2f2;
+  color: #ff4d4d;
+  font-weight: 600;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
 }
 
 .research-carousel-btn {
@@ -168,16 +171,16 @@ redirect_from:
   <div class="research-carousel" id="researchCarousel">
     <div class="research-carousel-track">
 
-      <div class="research-carousel-slide">
-        <img src="images/carousel/TY.jpg" alt="Research highlight 1">
-        <div class="research-carousel-caption">
-          <h3>Evolutionary Computation and Multi-objective Optimization</h3>
-          <p>
-            Our group focuses on evolutionary computation, multi-objective optimization,
-            and intelligent decision-making for complex engineering systems.
-          </p>
-        </div>
-      </div>
+<div class="research-carousel-slide"> 
+  <img src="images/carousel/Gary_wust.jpg" alt="Welcome Professor Gary G. Yen">
+  <div class="research-carousel-caption welcome-caption">
+    <h3>Warmly Welcome IEEE Fellow Professor Gary G. Yen to Visit Our Research Group</h3>
+    <p>
+      It is a great honor for our research group to welcome Professor Gary G. Yen, IEEE Fellow,
+      for academic exchange and scholarly discussion.
+    </p>
+  </div>
+</div>
 
       <div class="research-carousel-slide">
         <img src="images/carousel/Ishibuchi_wust.jpg" alt="Research highlight 2">
