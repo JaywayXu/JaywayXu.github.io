@@ -782,53 +782,137 @@ My research interests include:
 
 ## Master's degree student
 
-### 2024
-
 <style>
 .student-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(120px, 1fr));
+  gap: 26px 22px;
+  justify-items: center;
+  align-items: start;
+  width: 100%;
+  margin-top: 20px;
 }
+
 .student {
-  margin: 10px;
+  width: 100%;
+  max-width: 160px;
   text-align: center;
 }
+
+.student-year {
+  font-size: 15px;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 8px;
+}
+
 .student img {
   width: 150px;
-  height: auto;
+  height: 150px;
   border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+.student p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.student a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.student a:hover {
+  text-decoration: underline;
+}
+
+.student-name {
+  color: #333;
+}
+
+/* 自适应布局：页面变窄时自动减少每行人数 */
+@media (max-width: 1200px) {
+  .student-gallery {
+    grid-template-columns: repeat(5, minmax(120px, 1fr));
+  }
+}
+
+@media (max-width: 1000px) {
+  .student-gallery {
+    grid-template-columns: repeat(4, minmax(120px, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .student-gallery {
+    grid-template-columns: repeat(3, minmax(120px, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .student-gallery {
+    grid-template-columns: repeat(2, minmax(120px, 1fr));
+  }
+}
+
+@media (max-width: 360px) {
+  .student-gallery {
+    grid-template-columns: repeat(1, minmax(120px, 1fr));
+  }
 }
 </style>
 
 <div class="student-gallery">
-  <div class="student">
-    <img src="images/WPS.jpg" alt="Student 1">
-    <p><a href="https://github.com/JaywayXu/PingShanWu" target="_blank">Pingshan Wu</a></p>
-  </div>
-  <div class="student">
-    <img src="images/HNP.jpg" alt="Student 2">
-    <p><a href="https://github.com/JaywayXu/NuopiaoHe" target="_blank">Nuopiao He</a></p>
-  </div>
-  <!-- 根据需要添加更多学生 -->
-</div>
 
-### 2025
-
-<div class="student-gallery">
   <div class="student">
-    <img src="images/CPL.jpg" alt="Student 3">
-    <p><a target="_blank">Pilin Chen</a></p>
+    <div class="student-year">2024</div>
+    <img src="images/WPS.jpg" alt="Pingshan Wu">
+    <p>
+      <a href="https://github.com/JaywayXu/PingShanWu" target="_blank" rel="noopener noreferrer">
+        Pingshan Wu
+      </a>
+    </p>
   </div>
-  <!-- 根据需要添加更多学生 -->
-</div>
 
-### 2026
-
-<div class="student-gallery">
   <div class="student">
-    <img src="images/HYR.jpg" alt="Student 4">
-    <p><a target="_blank">Yiran Huang</a></p>
+    <div class="student-year">2024</div>
+    <img src="images/HNP.jpg" alt="Nuopiao He">
+    <p>
+      <a href="https://github.com/JaywayXu/NuopiaoHe" target="_blank" rel="noopener noreferrer">
+        Nuopiao He
+      </a>
+    </p>
   </div>
-  <!-- 根据需要添加更多学生 -->
+
+  <div class="student">
+    <div class="student-year">2025</div>
+    <img src="images/CPL.jpg" alt="Pilin Chen">
+    <p>
+      <span class="student-name">Pilin Chen</span>
+    </p>
+  </div>
+
+  <div class="student">
+    <div class="student-year">2026</div>
+    <img src="images/HYR.jpg" alt="Yiran Huang">
+    <p>
+      <span class="student-name">Yiran Huang</span>
+    </p>
+  </div>
+
+  <!-- 后续添加学生时，复制下面这个模板即可 -->
+  <!--
+  <div class="student">
+    <div class="student-year">2026</div>
+    <img src="images/xxx.jpg" alt="Student Name">
+    <p>
+      <span class="student-name">Student Name</span>
+    </p>
+  </div>
+  -->
+
 </div>
