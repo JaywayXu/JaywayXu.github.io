@@ -15,39 +15,6 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
-
-## ZhiweiXu(许志伟)
-
-I am currently a lecturer at the School of Computer Science and Technology, Wuhan University of Science and Technology, China. I am a member of the **Institute of Electrical and Electronics Engineers (IEEE)**, **China Computer Federation (CCF)**, **Association for Computing Machinery (ACM)**, **Chinese Association for Artificial Intelligence (CAAI)**, **Chinese Association of Automation (CAA)**, **Chinese Institute of Electronics (CIE)**, **IEEE Systems, Man, and Cybernetics Society (IEEE-SMC)**, **IEEE Computational Intelligence Society (IEEE-CIS)**, **Technical Committee on Intelligent Simulation Optimization and Scheduling, China Simulation Federation (CSF)** , and **ACM Special Interest Group on Genetic and Evolutionary Computation (ACM-SIGEVO)**. Recognized as a high-quality content creator and blogging expert in the field of artificial intelligence on CSDN, I have actively contributed to the academic community.
-
-I was awarded the National Scholarship for Master's students in 2019 and the National Scholarship for Doctoral students in 2021 and 2022 by the Ministry of Education of China. Recently, I have achieved significant advancements and breakthroughs in multi-task multi-objective optimization, constrained multi-objective optimization, and many-objective optimization.
-
-I have participated in two projects funded by the National Natural Science Foundation of China and led a youth project funded by the Provincial Natural Science Foundation. My research findings have been published in top-tier international journals such as **IEEE Transactions on Evolutionary Computation**, **IEEE Transactions on Cybernetics**, **IEEE Transactions on Intelligent Transportation Systems**, **Information Sciences**, **Science China: Information Sciences**, and **Applied Soft Computing**.
-
-I was recognized as an Excellent Graduate Student at the Annual Meeting and Academic Seminar of the Wuhan Computer Software Engineering Society in both 2021 and 2022, and won the First Prize at the 2021 CCF Wuhan Excellent Doctoral Student Academic Showcase Forum. 
-
-I serve as a reviewer for leading international journals including **IEEE Transactions on Evolutionary Computation**, **IEEE Transactions on Systems, Man, and Cybernetics: Systems**, **IEEE Transactions on Cybernetics**, **Information Sciences**, **Applied Soft Computing**, **Robotics and Computer-Integrated Manufacturing**, **Neural Computing and Applications**, **Engineering Applications of Artificial Intelligence **, **Expert Systems with Applications **, and **Journal of Membrane Computing**.
-
-Additionally, I am a reviewer for international conferences such as the **IEEE Congress on Evolutionary Computation (IEEE CEC)**, **IEEE Symposium Series on Computational Intelligence (SSCI)**, **IEEE Conference on Artificial Intelligence (IEEE CAI)** and the **International Conference on Bio-inspired Computing: Theories and Applications (BIC-TA)**.
-
-I have Served as a Session Chair at the **19th International Conference on Bio-inspired Computing: Theories and Applications (BIC-TA 2024)**, **20th International Conference on Bio-inspired Computing: Theories and Applications (BIC-TA 2025)**, Program Committee Member for the **2025 Asia Conference on Artificial Intelligence Technology (ACAIT2025)** and **The International Conference on Machine Intelligence and Nature-inspired Computing (MIND 2025)**.  <a href='https://scholar.google.com/citations?user=_Lkioz8AAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>
-
-My research interests include:
-
-- Neural Combinatorial Optimization
-- Scheduling and Vehicle Routing Planning
-- Evolutionary Computation
-- Multi-objective Optimization (Many-objective, Constrained, Multi-task, Multimodal, etc.)
-- DNA Computing, Encoding, and Self-Assembly
-
-<span class='anchor' id='-Hl'></span>
-
-## Highlight
-
-<span class='anchor' id='-lwzl'></span>
-
----
 
 <!-- ================= Research Highlights Carousel Start ================= -->
 
@@ -340,6 +307,40 @@ My research interests include:
 <!-- ================= Research Highlights Carousel End ================= -->
 
 
+<span class='anchor' id='about-me'></span>
+
+## ZhiweiXu(许志伟)
+
+I am currently a lecturer at the School of Computer Science and Technology, Wuhan University of Science and Technology, China. I am a member of the **Institute of Electrical and Electronics Engineers (IEEE)**, **China Computer Federation (CCF)**, **Association for Computing Machinery (ACM)**, **Chinese Association for Artificial Intelligence (CAAI)**, **Chinese Association of Automation (CAA)**, **Chinese Institute of Electronics (CIE)**, **IEEE Systems, Man, and Cybernetics Society (IEEE-SMC)**, **IEEE Computational Intelligence Society (IEEE-CIS)**, **Technical Committee on Intelligent Simulation Optimization and Scheduling, China Simulation Federation (CSF)** , and **ACM Special Interest Group on Genetic and Evolutionary Computation (ACM-SIGEVO)**. Recognized as a high-quality content creator and blogging expert in the field of artificial intelligence on CSDN, I have actively contributed to the academic community.
+
+I was awarded the National Scholarship for Master's students in 2019 and the National Scholarship for Doctoral students in 2021 and 2022 by the Ministry of Education of China. Recently, I have achieved significant advancements and breakthroughs in multi-task multi-objective optimization, constrained multi-objective optimization, and many-objective optimization.
+
+I have participated in two projects funded by the National Natural Science Foundation of China and led a youth project funded by the Provincial Natural Science Foundation. My research findings have been published in top-tier international journals such as **IEEE Transactions on Evolutionary Computation**, **IEEE Transactions on Cybernetics**, **IEEE Transactions on Intelligent Transportation Systems**, **Information Sciences**, **Science China: Information Sciences**, and **Applied Soft Computing**.
+
+I was recognized as an Excellent Graduate Student at the Annual Meeting and Academic Seminar of the Wuhan Computer Software Engineering Society in both 2021 and 2022, and won the First Prize at the 2021 CCF Wuhan Excellent Doctoral Student Academic Showcase Forum. 
+
+I serve as a reviewer for leading international journals including **IEEE Transactions on Evolutionary Computation**, **IEEE Transactions on Systems, Man, and Cybernetics: Systems**, **IEEE Transactions on Cybernetics**, **Information Sciences**, **Applied Soft Computing**, **Robotics and Computer-Integrated Manufacturing**, **Neural Computing and Applications**, **Engineering Applications of Artificial Intelligence**, **Expert Systems with Applications**, and **Journal of Membrane Computing**.
+
+Additionally, I am a reviewer for international conferences such as the **IEEE Congress on Evolutionary Computation (IEEE CEC)**, **IEEE Symposium Series on Computational Intelligence (SSCI)**, **IEEE Conference on Artificial Intelligence (IEEE CAI)** and the **International Conference on Bio-inspired Computing: Theories and Applications (BIC-TA)**.
+
+I have Served as a Session Chair at the **19th International Conference on Bio-inspired Computing: Theories and Applications (BIC-TA 2024)**, **20th International Conference on Bio-inspired Computing: Theories and Applications (BIC-TA 2025)**, Program Committee Member for the **2025 Asia Conference on Artificial Intelligence Technology (ACAIT2025)** and **The International Conference on Machine Intelligence and Nature-inspired Computing (MIND 2025)**.  <a href='https://scholar.google.com/citations?user=_Lkioz8AAAAJ&hl'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=引用"></a>
+
+My research interests include:
+
+- Neural Combinatorial Optimization
+- Scheduling and Vehicle Routing Planning
+- Evolutionary Computation
+- Multi-objective Optimization (Many-objective, Constrained, Multi-task, Multimodal, etc.)
+- DNA Computing, Encoding, and Self-Assembly
+
+<span class='anchor' id='-Hl'></span>
+
+## Highlight
+
+<span class='anchor' id='-lwzl'></span>
+
+---
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TITS 2025</div><img src='images/MMOEA-CDP.svg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -557,7 +558,7 @@ My research interests include:
       <p class="description">Dr. Qianqian Yu is currently a Lecturer at the School of Computer Science and Technology, Wuhan University of Science and Technology. She was supervised by Prof. Guangming Dai at China University of Geosciences (Wuhan) and Assoc. Prof. Chen Yang at Beihang University. Her research focuses on interval multi-objective optimization, constrained multi-objective evolutionary algorithms, and their applications in engineering problems, including structural optimization, wireless sensor placement, thermal control optimization, and force reconstruction. She has published six SCI-indexed papers as the first author or corresponding author in journals such as IEEE Transactions on Industrial Informatics, Swarm and Evolutionary Computation, Computer Methods in Applied Mechanics and Engineering, Aerospace Science and Technology, and Applied Soft Computing. Among these publications, one paper has been selected as an ESI Hot Paper. She also serves as a reviewer for journals including IEEE Internet of Things Journal, Journal of Computational and Applied Mathematics, Journal of Sound and Vibration, and IEEE Sensors Journal.</p>
     </div>
   </div>
-</div>
+
 
 
 
