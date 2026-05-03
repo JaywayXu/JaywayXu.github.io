@@ -33,18 +33,27 @@ redirect_from:
   border-radius: 18px;
   box-shadow: 0 12px 32px rgba(0, 0, 0, 0.16);
   background: #f5f5f5;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: pan-y;
 }
 
 .research-carousel-track {
   display: flex;
   height: 100%;
-  transition: transform 0.75s ease-in-out;
+  transform: translate3d(0, 0, 0);
+  transition: transform 1050ms cubic-bezier(0.22, 0.61, 0.36, 1);
+  will-change: transform;
+  backface-visibility: hidden;
 }
 
 .research-carousel-slide {
   min-width: 100%;
   height: 100%;
   position: relative;
+  overflow: hidden;
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 
 .research-carousel-slide img {
@@ -53,6 +62,17 @@ redirect_from:
   object-fit: cover;
   object-position: center;
   display: block;
+  pointer-events: none;
+  transform: scale(1.035);
+  transition:
+    transform 1600ms cubic-bezier(0.22, 0.61, 0.36, 1),
+    opacity 900ms ease;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+.research-carousel-slide.active img {
+  transform: scale(1);
 }
 
 .research-carousel-caption {
@@ -68,6 +88,17 @@ redirect_from:
     rgba(0, 0, 0, 0.38),
     rgba(0, 0, 0, 0)
   );
+  opacity: 0;
+  transform: translate3d(0, 18px, 0);
+  transition:
+    opacity 850ms ease 220ms,
+    transform 850ms cubic-bezier(0.22, 0.61, 0.36, 1) 220ms;
+  will-change: opacity, transform;
+}
+
+.research-carousel-slide.active .research-carousel-caption {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
 }
 
 .research-carousel-caption h3 {
@@ -75,7 +106,7 @@ redirect_from:
   font-size: 24px;
   font-weight: 700;
   line-height: 1.3;
-  color: #fff; /* 柔和酒红色，不会过于刺眼 */
+  color: #fff;
 }
 
 .research-carousel-caption p {
@@ -83,10 +114,9 @@ redirect_from:
   font-size: 16px;
   line-height: 1.65;
   max-width: 850px;
-  color: #fff; /* 比标题更柔和的红色 */
+  color: #fff;
   font-weight: 600;
 }
-
 
 .research-carousel-btn {
   position: absolute;
@@ -101,11 +131,16 @@ redirect_from:
   font-size: 24px;
   cursor: pointer;
   z-index: 5;
-  transition: all 0.25s ease;
+  transition:
+    background 250ms ease,
+    transform 250ms ease,
+    opacity 250ms ease;
 }
 
-.research-carousel-btn:hover {
+.research-carousel-btn:hover,
+.research-carousel-btn:focus {
   background: rgba(0, 0, 0, 0.68);
+  outline: none;
 }
 
 .research-carousel-btn.prev {
@@ -130,13 +165,41 @@ redirect_from:
   border: none;
   background: #c9c9c9;
   cursor: pointer;
-  transition: all 0.25s ease;
+  transition:
+    width 280ms ease,
+    background 280ms ease,
+    transform 280ms ease;
+  padding: 0;
 }
 
 .research-carousel-dot.active {
   width: 26px;
   border-radius: 999px;
   background: #3b82f6;
+}
+
+.research-carousel-dot:hover {
+  transform: scale(1.15);
+}
+
+.research-carousel-dot:focus {
+  outline: 2px solid rgba(59, 130, 246, 0.45);
+  outline-offset: 3px;
+}
+
+/* 尊重系统“减少动态效果”的设置 */
+@media (prefers-reduced-motion: reduce) {
+  .research-carousel-track,
+  .research-carousel-slide img,
+  .research-carousel-caption,
+  .research-carousel-dot,
+  .research-carousel-btn {
+    transition: none;
+  }
+
+  .research-carousel-slide img {
+    transform: scale(1);
+  }
 }
 
 /* 移动端适配 */
@@ -171,61 +234,61 @@ redirect_from:
   <div class="research-carousel" id="researchCarousel">
     <div class="research-carousel-track">
 
-<div class="research-carousel-slide"> 
-  <img src="images/carousel/Gary_wust.jpg" alt="Welcome Professor Gary G. Yen">
-  <div class="research-carousel-caption">
-    <h3>Warmly Welcome IEEE Fellow Professor Gary G. Yen to Visit Our Research Group in 2025</h3>
-    <p>
-      It is a great honor for our research group to welcome Professor Gary G. Yen, IEEE Fellow,
-      for academic exchange and scholarly discussion.
-    </p>
-  </div>
-</div>
+      <div class="research-carousel-slide"> 
+        <img src="images/carousel/Gary_wust.jpg" alt="Welcome Professor Gary G. Yen">
+        <div class="research-carousel-caption">
+          <h3>Warmly Welcome IEEE Fellow Professor Gary G. Yen to Visit Our Research Group in 2025</h3>
+          <p>
+            It is a great honor for our research group to welcome Professor Gary G. Yen, IEEE Fellow,
+            for academic exchange and scholarly discussion.
+          </p>
+        </div>
+      </div>
 
-<div class="research-carousel-slide"> 
-  <img src="images/carousel/Ishibuchi_wust.jpg" alt="Welcome Professor Hisao Ishibuchi">
-  <div class="research-carousel-caption">
-    <h3>Warmly Welcome IEEE Fellow Professor Hisao Ishibuchi to Visit Our Research Group in 2025</h3>
-    <p>
-      It is a great honor for our research group to welcome Professor Hisao Ishibuchi, IEEE Fellow,
-      for academic exchange and scholarly discussion.
-    </p>
-  </div>
-</div>
+      <div class="research-carousel-slide"> 
+        <img src="images/carousel/Ishibuchi_wust.jpg" alt="Welcome Professor Hisao Ishibuchi">
+        <div class="research-carousel-caption">
+          <h3>Warmly Welcome IEEE Fellow Professor Hisao Ishibuchi to Visit Our Research Group in 2025</h3>
+          <p>
+            It is a great honor for our research group to welcome Professor Hisao Ishibuchi, IEEE Fellow,
+            for academic exchange and scholarly discussion.
+          </p>
+        </div>
+      </div>
 
-<div class="research-carousel-slide"> 
-  <img src="images/carousel/BICTA25.jpg" alt="BICTA 2025 Group Photo">
-  <div class="research-carousel-caption">
-    <h3>Our Research Group Co-organized BICTA 2025</h3>
-    <p>
-      As a co-organizer of BICTA 2025, our research group actively supported scholarly
-      exchange and interdisciplinary collaboration in bio-inspired computing,
-      evolutionary computation, and intelligent optimization.
-    </p>
-  </div>
-</div>
+      <div class="research-carousel-slide"> 
+        <img src="images/carousel/BICTA25.jpg" alt="BICTA 2025 Group Photo">
+        <div class="research-carousel-caption">
+          <h3>Our Research Group Co-organized BICTA 2025</h3>
+          <p>
+            As a co-organizer of BICTA 2025, our research group actively supported scholarly
+            exchange and interdisciplinary collaboration in bio-inspired computing,
+            evolutionary computation, and intelligent optimization.
+          </p>
+        </div>
+      </div>
 
-<div class="research-carousel-slide"> 
-  <img src="images/carousel/TY.jpg" alt="Welcome Professor Ye Tian">
-  <div class="research-carousel-caption">
-    <h3>Warmly Welcome Professor Ye Tian to Visit Our Research Group in 2025</h3>
-    <p>
-      It is a great honor for our research group to welcome Professor Ye Tian,
-      for academic exchange and scholarly discussion.
-    </p>
-  </div>
-</div>
+      <div class="research-carousel-slide"> 
+        <img src="images/carousel/TY.jpg" alt="Welcome Professor Ye Tian">
+        <div class="research-carousel-caption">
+          <h3>Warmly Welcome Professor Ye Tian to Visit Our Research Group in 2025</h3>
+          <p>
+            It is a great honor for our research group to welcome Professor Ye Tian
+            for academic exchange and scholarly discussion.
+          </p>
+        </div>
+      </div>
 
-<div class="research-carousel-slide"> 
-  <img src="images/carousel/23_Gary_wust.jpg" alt="Welcome Professor Gary G. Yen">
-  <div class="research-carousel-caption">
-    <h3>Warmly Welcome IEEE Fellow Professor Gary G. Yen to Visit Our Research Group in 2023</h3>
-    <p>
-      It is a great honor for our research group to welcome Professor Gary G. Yen, IEEE Fellow,
-      for academic exchange and scholarly discussion.
-    </p>
-  </div>
-</div>
+      <div class="research-carousel-slide"> 
+        <img src="images/carousel/23_Gary_wust.jpg" alt="Welcome Professor Gary G. Yen in 2023">
+        <div class="research-carousel-caption">
+          <h3>Warmly Welcome IEEE Fellow Professor Gary G. Yen to Visit Our Research Group in 2023</h3>
+          <p>
+            It is a great honor for our research group to welcome Professor Gary G. Yen, IEEE Fellow,
+            for academic exchange and scholarly discussion.
+          </p>
+        </div>
+      </div>
 
     </div>
 
@@ -238,84 +301,226 @@ redirect_from:
 
 <script>
 (function () {
-  const carousel = document.getElementById("researchCarousel");
-  if (!carousel) return;
+  function initResearchCarousel() {
+    const carousel = document.getElementById("researchCarousel");
+    if (!carousel) return;
 
-  const track = carousel.querySelector(".research-carousel-track");
-  const slides = Array.from(carousel.querySelectorAll(".research-carousel-slide"));
-  const prevBtn = carousel.querySelector(".research-carousel-btn.prev");
-  const nextBtn = carousel.querySelector(".research-carousel-btn.next");
-  const dotsContainer = document.getElementById("researchCarouselDots");
-
-  let currentIndex = 0;
-  let autoPlayTimer = null;
-  const interval = 4500;
-
-  slides.forEach(function (_, index) {
-    const dot = document.createElement("button");
-    dot.className = "research-carousel-dot";
-    dot.type = "button";
-    dot.setAttribute("aria-label", "Go to slide " + (index + 1));
-    dot.addEventListener("click", function () {
-      goToSlide(index);
-      restartAutoPlay();
-    });
-    dotsContainer.appendChild(dot);
-  });
-
-  const dots = Array.from(dotsContainer.querySelectorAll(".research-carousel-dot"));
-
-  function updateCarousel() {
-    track.style.transform = "translateX(-" + currentIndex * 100 + "%)";
-    dots.forEach(function (dot, index) {
-      dot.classList.toggle("active", index === currentIndex);
-    });
-  }
-
-  function goToSlide(index) {
-    currentIndex = (index + slides.length) % slides.length;
-    updateCarousel();
-  }
-
-  function nextSlide() {
-    goToSlide(currentIndex + 1);
-  }
-
-  function prevSlide() {
-    goToSlide(currentIndex - 1);
-  }
-
-  function startAutoPlay() {
-    autoPlayTimer = setInterval(nextSlide, interval);
-  }
-
-  function stopAutoPlay() {
-    if (autoPlayTimer) {
-      clearInterval(autoPlayTimer);
-      autoPlayTimer = null;
+    /*
+     * 防止重复初始化。
+     * 如果脚本被浏览器缓存恢复、Jekyll 页面重载或其他机制重复执行，
+     * 先销毁旧实例，避免多个定时器叠加导致轮播突然变快。
+     */
+    if (
+      carousel.__researchCarouselInstance &&
+      typeof carousel.__researchCarouselInstance.destroy === "function"
+    ) {
+      carousel.__researchCarouselInstance.destroy();
     }
+
+    const wrapper = carousel.closest(".research-carousel-wrapper") || carousel;
+    const track = carousel.querySelector(".research-carousel-track");
+    const slides = Array.from(carousel.querySelectorAll(".research-carousel-slide"));
+    const prevBtn = carousel.querySelector(".research-carousel-btn.prev");
+    const nextBtn = carousel.querySelector(".research-carousel-btn.next");
+    const dotsContainer = document.getElementById("researchCarouselDots");
+
+    if (!track || slides.length === 0 || !prevBtn || !nextBtn || !dotsContainer) return;
+
+    /*
+     * 五秒切换一次。
+     * 注意：这是每张图的停留节奏，不是动画时间。
+     * 动画时间由 CSS 中的 1050ms 控制。
+     */
+    const AUTOPLAY_DELAY = 5000;
+    const TRANSITION_DURATION = 1050;
+
+    let currentIndex = 0;
+    let autoplayTimer = null;
+    let isPaused = false;
+    let isDestroyed = false;
+    let isAnimating = false;
+
+    const prefersReducedMotion =
+      window.matchMedia &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    const canAutoplay = slides.length > 1 && !prefersReducedMotion;
+    const removeListeners = [];
+
+    function addListener(element, eventName, handler) {
+      element.addEventListener(eventName, handler, false);
+      removeListeners.push(function () {
+        element.removeEventListener(eventName, handler, false);
+      });
+    }
+
+    dotsContainer.innerHTML = "";
+
+    slides.forEach(function (_, index) {
+      const dot = document.createElement("button");
+      dot.className = "research-carousel-dot";
+      dot.type = "button";
+      dot.setAttribute("aria-label", "Go to slide " + (index + 1));
+
+      addListener(dot, "click", function () {
+        goToSlide(index);
+        scheduleAutoplay();
+      });
+
+      dotsContainer.appendChild(dot);
+    });
+
+    const dots = Array.from(dotsContainer.querySelectorAll(".research-carousel-dot"));
+
+    function clearAutoplay() {
+      if (autoplayTimer !== null) {
+        window.clearTimeout(autoplayTimer);
+        autoplayTimer = null;
+      }
+    }
+
+    function scheduleAutoplay() {
+      clearAutoplay();
+
+      if (isDestroyed || !canAutoplay || isPaused || document.hidden) {
+        return;
+      }
+
+      autoplayTimer = window.setTimeout(function () {
+        nextSlide();
+        scheduleAutoplay();
+      }, AUTOPLAY_DELAY);
+    }
+
+    function pauseAutoplay() {
+      isPaused = true;
+      clearAutoplay();
+    }
+
+    function resumeAutoplay() {
+      isPaused = false;
+      scheduleAutoplay();
+    }
+
+    function updateCarousel() {
+      track.style.transform = "translate3d(-" + currentIndex * 100 + "%, 0, 0)";
+
+      slides.forEach(function (slide, index) {
+        slide.classList.toggle("active", index === currentIndex);
+      });
+
+      dots.forEach(function (dot, index) {
+        dot.classList.toggle("active", index === currentIndex);
+      });
+    }
+
+    function goToSlide(index) {
+      if (slides.length <= 1) return;
+
+      const nextIndex = (index + slides.length) % slides.length;
+
+      if (nextIndex === currentIndex || isAnimating) {
+        return;
+      }
+
+      currentIndex = nextIndex;
+      isAnimating = true;
+      updateCarousel();
+
+      window.setTimeout(function () {
+        isAnimating = false;
+      }, TRANSITION_DURATION + 80);
+    }
+
+    function nextSlide() {
+      goToSlide(currentIndex + 1);
+    }
+
+    function prevSlide() {
+      goToSlide(currentIndex - 1);
+    }
+
+    addListener(nextBtn, "click", function () {
+      nextSlide();
+      scheduleAutoplay();
+    });
+
+    addListener(prevBtn, "click", function () {
+      prevSlide();
+      scheduleAutoplay();
+    });
+
+    /*
+     * 鼠标悬停暂停，离开后恢复。
+     * pointerenter / pointerleave 对 Mac Safari、Chrome、Edge 更稳。
+     * mouseenter / mouseleave 作为补充兼容。
+     */
+    addListener(wrapper, "pointerenter", pauseAutoplay);
+    addListener(wrapper, "pointerleave", resumeAutoplay);
+    addListener(wrapper, "mouseenter", pauseAutoplay);
+    addListener(wrapper, "mouseleave", resumeAutoplay);
+
+    /*
+     * 用户使用键盘或按钮聚焦时暂停，提高可访问性。
+     */
+    addListener(wrapper, "focusin", pauseAutoplay);
+    addListener(wrapper, "focusout", resumeAutoplay);
+
+    /*
+     * 页面切到后台时暂停，回到前台后恢复。
+     * 可以避免浏览器后台节流导致恢复时动画异常。
+     */
+    addListener(document, "visibilitychange", function () {
+      if (document.hidden) {
+        clearAutoplay();
+      } else {
+        scheduleAutoplay();
+      }
+    });
+
+    /*
+     * 支持左右键切换。
+     */
+    addListener(wrapper, "keydown", function (event) {
+      if (event.key === "ArrowLeft") {
+        prevSlide();
+        scheduleAutoplay();
+      }
+
+      if (event.key === "ArrowRight") {
+        nextSlide();
+        scheduleAutoplay();
+      }
+    });
+
+    if (!wrapper.hasAttribute("tabindex")) {
+      wrapper.setAttribute("tabindex", "0");
+    }
+
+    /*
+     * 初始化首张图的 active 状态。
+     * 这样首张图片会有轻微的视觉进入效果，而不是静态显示。
+     */
+    updateCarousel();
+    scheduleAutoplay();
+
+    carousel.__researchCarouselInstance = {
+      destroy: function () {
+        isDestroyed = true;
+        clearAutoplay();
+        removeListeners.forEach(function (remove) {
+          remove();
+        });
+        dotsContainer.innerHTML = "";
+      }
+    };
   }
 
-  function restartAutoPlay() {
-    stopAutoPlay();
-    startAutoPlay();
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initResearchCarousel, { once: true });
+  } else {
+    initResearchCarousel();
   }
-
-  nextBtn.addEventListener("click", function () {
-    nextSlide();
-    restartAutoPlay();
-  });
-
-  prevBtn.addEventListener("click", function () {
-    prevSlide();
-    restartAutoPlay();
-  });
-
-  carousel.addEventListener("mouseenter", stopAutoPlay);
-  carousel.addEventListener("mouseleave", startAutoPlay);
-
-  updateCarousel();
-  startAutoPlay();
 })();
 </script>
 
