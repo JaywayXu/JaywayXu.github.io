@@ -173,7 +173,7 @@ redirect_from:
 
 <div class="research-carousel-slide"> 
   <img src="images/carousel/Gary_wust.jpg" alt="Welcome Professor Gary G. Yen">
-  <div class="research-carousel-caption welcome-caption">
+  <div class="research-carousel-caption">
     <h3>Warmly Welcome IEEE Fellow Professor Gary G. Yen to Visit Our Research Group in 2025</h3>
     <p>
       It is a great honor for our research group to welcome Professor Gary G. Yen, IEEE Fellow,
