@@ -784,18 +784,18 @@ My research interests include:
 
 <style>
 .student-gallery {
-  display: grid;
-  grid-template-columns: repeat(6, minmax(120px, 1fr));
-  gap: 26px 22px;
-  justify-items: center;
-  align-items: start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 26px 0;
   width: 100%;
   margin-top: 20px;
 }
 
 .student {
-  width: 100%;
-  max-width: 160px;
+  flex: 0 0 calc(100% / 6);
+  box-sizing: border-box;
   text-align: center;
 }
 
@@ -834,34 +834,38 @@ My research interests include:
   color: #333;
 }
 
-/* 自适应布局：页面变窄时自动减少每行人数 */
+/* 页面变窄时，每行最多 5 个 */
 @media (max-width: 1200px) {
-  .student-gallery {
-    grid-template-columns: repeat(5, minmax(120px, 1fr));
+  .student {
+    flex: 0 0 calc(100% / 5);
   }
 }
 
+/* 页面变窄时，每行最多 4 个 */
 @media (max-width: 1000px) {
-  .student-gallery {
-    grid-template-columns: repeat(4, minmax(120px, 1fr));
+  .student {
+    flex: 0 0 calc(100% / 4);
   }
 }
 
+/* 页面变窄时，每行最多 3 个 */
 @media (max-width: 760px) {
-  .student-gallery {
-    grid-template-columns: repeat(3, minmax(120px, 1fr));
+  .student {
+    flex: 0 0 calc(100% / 3);
   }
 }
 
+/* 手机端每行最多 2 个 */
 @media (max-width: 560px) {
-  .student-gallery {
-    grid-template-columns: repeat(2, minmax(120px, 1fr));
+  .student {
+    flex: 0 0 calc(100% / 2);
   }
 }
 
+/* 极窄屏幕每行 1 个 */
 @media (max-width: 360px) {
-  .student-gallery {
-    grid-template-columns: repeat(1, minmax(120px, 1fr));
+  .student {
+    flex: 0 0 100%;
   }
 }
 </style>
@@ -914,5 +918,7 @@ My research interests include:
     </p>
   </div>
   -->
+
+</div>
 
 </div>
