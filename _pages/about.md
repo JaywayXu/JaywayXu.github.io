@@ -623,7 +623,7 @@ My research interests include:
 <div class="student-gallery">
   <div class="student">
     <img src="images/HYR.jpg" alt="Student 4">
-    <p><a target="_blank">Pilin Chen</a></p>
+    <p><a target="_blank">Yiran Huang</a></p>
   </div>
   <!-- 根据需要添加更多学生 -->
 </div>
