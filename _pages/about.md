@@ -161,10 +161,9 @@ My research interests include:
 - Shuting. Jin, Huaze Long, Anqi Huang, Jianming Wang, Xuan Yu, `Zhiwei Xu(许志伟)`, Junlin Xu. Accurate prediction of synergistic drug combination using a multi-source information fusion framework. *BMC Biology* , vol. 23, no. 1, p. 200, Jul. 2025.  
 [[Link]](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-025-02302-y) [[Download]](/PDF/BMC2025-MultiSyn.pdf)
 - Huaze Long, Shuting. Jin, Junlin. Xu, and `Zhiwei Xu(许志伟)`, A Conformation Enhanced Graph Attention Framework for Predicting Synergistic Drug Combinations. *2025 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)* , Dec. 2025, pp. 1104–1111.  
-[[Link]](https://ieeexplore.ieee.org/abstract/document/11357183) [[Download]](/PDF/BIBM 25-ConGraSyn.pdf)
+[[Link]](https://ieeexplore.ieee.org/abstract/document/11357183) [[Download]](/PDF/BIBM25ConGraSyn.pdf)
 - `Zhiwei Xu(许志伟)`, Xiaoming Liu, and Kai Zhang\*. Mechanical Properties Prediction for Hot Rolled Alloy Steel Using Convolutional Neural Network. *IEEE Access* , vol. 7, pp. 47068–47078, 2019.  
 [[Link]](https://ieeexplore.ieee.org/document/8682144) [[Download]](/PDF/ACCESS.pdf)
--
 - Haozhi Zhao, `Zhiwei Xu(许志伟)`\*, and K Zhang\*. Reference Point Based Multi-objective Evolutionary Algorithm for DNA Sequence Design. *International Conference on Bio-Inspired Computing: Theories and Applications*, 2019, pp. 178–188.  
 [[Link]](http://link.springer.com/10.1007/978-981-15-3415-7_14) [[Download]](/PDF/BICTA_DNA.pdf)
 - Hao Xu, `Zhiwei Xu(许志伟)`\*, and Kai Zhang\*. Mechanical Properties Prediction for Hot Roll Steel Using Convolutional Neural Network. *International Conference on Bio-Inspired Computing: Theories and Applications*, 2019, pp. 565–575.  
@@ -256,6 +255,20 @@ My research interests include:
     </div>
   </div>
 </div>
+
+  <div class="prof">
+    <div>
+      <img src="images/YQQ.jpg" alt="Qianqian Yu">
+      <p class="name"><a href="https://scholar.google.com/citations?user=LuDsX3kAAAAJ&hl" target="_blank">Qianqian Yu</a></p>
+    </div>
+    <div class="description-container">
+      <p class="description">Dr. Qianqian Yu is currently a Lecturer at the School of Computer Science and Technology, Wuhan University of Science and Technology. She was supervised by Prof. Guangming Dai at China University of Geosciences (Wuhan) and Assoc. Prof. Chen Yang at Beihang University. Her research focuses on interval multi-objective optimization, constrained multi-objective evolutionary algorithms, and their applications in engineering problems, including structural optimization, wireless sensor placement, thermal control optimization, and force reconstruction. She has published six SCI-indexed papers as the first author or corresponding author in journals such as IEEE Transactions on Industrial Informatics, Swarm and Evolutionary Computation, Computer Methods in Applied Mechanics and Engineering, Aerospace Science and Technology, and Applied Soft Computing. Among these publications, one paper has been selected as an ESI Hot Paper. She also serves as a reviewer for journals including IEEE Internet of Things Journal, Journal of Computational and Applied Mathematics, Journal of Sound and Vibration, and IEEE Sensors Journal.</p>
+    </div>
+  </div>
+</div>
+
+
+
 
 ## Master's degree student
 
