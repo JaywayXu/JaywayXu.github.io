@@ -194,7 +194,7 @@ redirect_from:
 </div>
 
 <div class="research-carousel-slide"> 
-  <img src="images/carousel/23_Gary_wust" alt="Welcome Professor Gary G. Yen">
+  <img src="images/carousel/23_Gary_wust.jpg" alt="Welcome Professor Gary G. Yen">
   <div class="research-carousel-caption">
     <h3>Warmly Welcome IEEE Fellow Professor Gary G. Yen to Visit Our Research Group in 2023</h3>
     <p>
@@ -205,7 +205,7 @@ redirect_from:
 </div>
 
 <div class="research-carousel-slide"> 
-  <img src="images/carousel/TY" alt="Welcome Professor Ye Tian">
+  <img src="images/carousel/TY.jpg" alt="Welcome Professor Ye Tian">
   <div class="research-carousel-caption">
     <h3>Warmly Welcome Professor Ye Tian to Visit Our Research Group in 2025</h3>
     <p>
@@ -216,7 +216,7 @@ redirect_from:
 </div>
 
 <div class="research-carousel-slide"> 
-  <img src="images/carousel/BICTA25" alt="BICTA 2025 Group Photo">
+  <img src="images/carousel/BICTA25.jpg" alt="BICTA 2025 Group Photo">
   <div class="research-carousel-caption">
     <h3>Our Research Group Co-organized BICTA 2025</h3>
     <p>
@@ -226,40 +226,6 @@ redirect_from:
     </p>
   </div>
 </div>
-
-
-      <div class="research-carousel-slide">
-        <img src="images/carousel/Ishibuchi_wust.jpg" alt="Research highlight 2">
-        <div class="research-carousel-caption">
-          <h3>Intelligent Transportation and Path Planning</h3>
-          <p>
-            We develop advanced optimization algorithms for vehicle routing, path planning,
-            multimodal transportation, and emergency logistics.
-          </p>
-        </div>
-      </div>
-
-      <div class="research-carousel-slide">
-        <img src="images/carousel/Gary_wust.jpg" alt="Research highlight 3">
-        <div class="research-carousel-caption">
-          <h3>Multitask and Constrained Optimization</h3>
-          <p>
-            Our recent studies investigate knowledge transfer, constraint handling,
-            multimodal search, and large-scale optimization in dynamic environments.
-          </p>
-        </div>
-      </div>
-
-      <div class="research-carousel-slide">
-        <img src="images/carousel/BICTA25.jpg" alt="Research highlight 4">
-        <div class="research-carousel-caption">
-          <h3>Research Collaboration and Academic Activities</h3>
-          <p>
-            The team actively collaborates with leading researchers and publishes in
-            high-impact journals including TEVC, TCYB, TITS, Information Sciences, and ASOC.
-          </p>
-        </div>
-      </div>
 
     </div>
 
