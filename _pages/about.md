@@ -71,18 +71,23 @@ redirect_from:
 }
 
 .research-carousel-caption h3 {
-  margin: 0 0 8px 0;
-  font-size: 24px;
-  font-weight: 700;
-  color: #ff2b2b;
+  margin: 0 0 10px 0;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1.3;
+  color: #b5485d; /* 柔和酒红色，不会过于刺眼 */
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.28);
+  letter-spacing: 0.3px;
 }
 
 .research-carousel-caption p {
   margin: 0;
-  font-size: 15px;
-  line-height: 1.55;
+  font-size: 16px;
+  line-height: 1.65;
   max-width: 850px;
-  color: #f2f2f2;
+  color: #d46a79; /* 比标题更柔和的红色 */
+  font-weight: 600;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.22);
 }
 
 
@@ -179,6 +184,7 @@ redirect_from:
     </p>
   </div>
 </div>
+
 
       <div class="research-carousel-slide">
         <img src="images/carousel/Ishibuchi_wust.jpg" alt="Research highlight 2">
