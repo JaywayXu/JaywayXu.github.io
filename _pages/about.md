@@ -782,6 +782,17 @@ My research interests include:
     </div>
   </div>
 
+  <div class="prof">
+    <div>
+      <img src="images/BQ.jpg" alt="Qian Bao">
+      <p class="name"><a href="https://www.researchgate.net/profile/Qian-Bao-4/research" target="_blank">Qian Bao</a></p>
+    </div>
+    <div class="description-container">
+      <p class="description">Bao Qian graduated from the School of Computer Science at China University of Geosciences (Wuhan) with a Doctor of Engineering degree in Geoscience Information Engineering. She is currently employed at the School of Computer Science and Technology, Wuhan University of Science and Technology. From January 2024 to July 2025, I was awarded a scholarship by the China Scholarship Council and conducted joint training in the research group of IEEE Fellow Professor Yang Shengxiang at De Montfort University. In recent years, I have been committed to the research in the fields of artificial intelligence and intelligent computing and their applications. In IEEE Transactions on Evolutionary Computation, Swarm and Evolutionary Computation, Expert Systems with Published papers in journals such as Applications and Applied Soft Computing.
+      </p>
+    </div>
+  </div>
+
 
 ## Master's degree student
 
