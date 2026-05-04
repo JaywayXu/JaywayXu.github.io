@@ -784,7 +784,7 @@ My research interests include:
 
   <div class="prof">
     <div>
-      <img src="images/BQ.jpg" alt="Qian Bao">
+      <img src="images/BQ.png" alt="Qian Bao">
       <p class="name"><a href="https://www.researchgate.net/profile/Qian-Bao-4/research" target="_blank">Qian Bao</a></p>
     </div>
     <div class="description-container">
