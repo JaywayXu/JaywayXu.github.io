@@ -694,9 +694,12 @@ My research interests include:
 - [Linqiang Pan](https://scholar.google.com/citations?user=jZRwWG8AAAAJ), Professor with School of Artificial Intelligence and Automation, Huazhong University of Science and Technology, Wuhan, China.
 - [Xingyi Zhang](https://scholar.google.com/citations?user=7lmPe2kAAAAJ), *IEEE Fellow*, Professor with the School of Computer Science and Technology, Anhui University, Hefei, China.
 - [Javier Del Ser](https://scholar.google.com/citations?user=p_wY0zUAAAAJ), *IEEE Senior Member*, Research Professor in data analytics and optimization with TECNALIA, Spain, and an Adjunct Professor at the University of the Basque Country (UPV/EHU). 
+- [Yiping Liu](https://yiping0liu.github.io/) Professor in the College of Computer Science and Electronic Engineering at Hunan University, have led four national-level projects—including the NSFC Young Scientists Fund (Category B) [formerly the Excellent Young Scientists Fund]—as well as two provincial-level projects. 
+- [Jianfeng Lu](https://orcid.org/0000-0001-6834-1539), Full Professor with the School of Computer Science and Technology,  Recipient of the Outstanding Youth Project of Zhejiang Province, Wuhan University of Science and Technology, China.
 - [Miqing Li](https://sites.google.com/view/miqing-li), *IEEE Senior Member*, Assistant Professor with the University of Birmingham, Birmingham, U.K. 
+- [Qiuhua Tang](https://scholar.google.com/citations?user=dpvVKswAAAAJ&hl=en&oi=ao), Full Professor with the School of Mechanical Engineering, Recipient of the Outstanding Youth Project of Hubei Province, Wuhan University of Science and Technology, China. 
 - [Xin Xu](https://scholar.google.com/citations?hl=en&user=DtuoAWIAAAAJ), *IEEE Senior Member*, Full Professor with the School of Computer Science and Technology, Wuhan University of Science and Technology, China.
-- [Qiuhua Tang](https://scholar.google.com/citations?user=dpvVKswAAAAJ&hl=en&oi=ao), Full Professor with the School of Mechanical Engineering, Wuhan University of Science and Technology, China.
+
 
 <span class='anchor' id='-team'></span>
 
